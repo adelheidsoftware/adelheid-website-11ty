@@ -1,3 +1,8 @@
+---
+title: 'Adelheid Software'
+layout: 'layouts/home.html'
+---
+
 # Welcome to Adelheid Software!
 
 ### Disclaimer: This website is currently under active development.
