@@ -1,7 +1,13 @@
-{% extends "layouts/base.html" %} 
+{% extends "layouts/base.html" %}
+
 {% block content %}
-  <article>
-    <h1>{{ title }}</h1>
-    {{ content | safe }}
+<div class="wrapper"> <!-- Intro/heading for the home page. -->
+  <article class="intro">
+    <div class="[ intro__header ] [ radius frame ]"></div>
   </article>
+</div>
+
+<article>
+  {{ content | safe }}
+</article>
 {% endblock %}

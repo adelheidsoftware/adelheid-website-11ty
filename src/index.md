@@ -1,6 +1,10 @@
 ---
 title: 'Adelheid Software'
+metaDesc: 'An indie studio that develops games and game-related software solutions.'
 layout: 'layouts/home.html'
+intro:
+  logoText: 'Adelheid Software'
+displayFooter: true
 ---
 
 # Welcome to Adelheid Software!
@@ -46,6 +50,3 @@ A Java GeoJSON and TopoJSON library.
 Email: [adelheidsoftware@gmail.com](mailto:adelheidsoftware@gmail.com)
 
 Join us on [Discord](https://discord.gg/8uWduVrUUa)!
-
-<br>
-Copyright © 2023 Adelheid Software
