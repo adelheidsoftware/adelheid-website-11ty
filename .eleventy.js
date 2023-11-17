@@ -10,6 +10,7 @@ module.exports = config => {
   // Plugins
   config.addPlugin(rssPlugin);
 
+  // Add filters
   config.addFilter('dateFilter', dateFilter);
   config.addFilter('w3DateFilter', w3DateFilter);
   config.addFilter('dateTimeFilter', dateTimeFilter);
