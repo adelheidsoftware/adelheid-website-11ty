@@ -15,8 +15,9 @@ module.exports = config => {
   config.addFilter('w3DateFilter', w3DateFilter);
   config.addFilter('dateTimeFilter', dateTimeFilter);
 	
-  // Copy `src/images/favicons/` to `build/`
-  config.addPassthroughCopy({ "src/images/icons/favicons": "/" });
+  // Pass through image assets to build directory
+  config.addPassthroughCopy('./src/assets/images/');
+
 	
   return {
     markdownTemplateEngine: 'njk',
