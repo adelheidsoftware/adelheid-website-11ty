@@ -18,6 +18,12 @@ module.exports = config => {
   // Pass through image assets to build directory
   config.addPassthroughCopy('./src/assets/images/');
 
+  // Returns a collection of blog posts in reverse order (newest first)
+  config.addCollection('blog', collection => {
+    return [...collection.getFilteredByGlob('./src/blog/posts/*.md')].reverse();
+  });
+
+
 	
   return {
     markdownTemplateEngine: 'njk',
