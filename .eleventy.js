@@ -1,4 +1,12 @@
+// Filters
+const dateFilter = require('./src/filters/date-filter.js');
+const w3DateFilter = require('./src/filters/w3-date-filter.js');
+const dateTimeFilter = require('./src/filters/datetime-filter.js');
+
 module.exports = config => {
+  config.addFilter('dateFilter', dateFilter);
+  config.addFilter('w3DateFilter', w3DateFilter);
+  config.addFilter('dateTimeFilter', dateTimeFilter);
 	
   // Copy `src/images/favicons/` to `build/`
   config.addPassthroughCopy({ "src/images/icons/favicons": "/" });
