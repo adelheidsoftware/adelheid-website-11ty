@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "text": "Home",
+      "url": "/"
+    },
+    {
+      "text": "Games",
+      "url": "/games/"
+    },
+    {
+      "text": "Software",
+      "url": "/software/"
+    },
+    {
+      "text": "Blog",
+      "url": "/blog/"
+    },
+    {
+      "text": "About",
+      "url": "/about/"
+    }
+  ]
+}
