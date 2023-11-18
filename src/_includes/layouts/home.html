@@ -2,9 +2,11 @@
 
 {% block content %}
 
-<article>
-  {{ content | safe }}
-</article>
+<div class="wrapper">
+  <article>
+    {{ content | safe }}
+  </article>
+</div>
 
 {% set ctaContent = cta %} 
 {% include "partials/cta.html" %}

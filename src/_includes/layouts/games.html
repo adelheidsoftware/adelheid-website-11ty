@@ -1,7 +1,11 @@
 {% extends "layouts/base.html" %}
 
 {% block content %}
-<article>
-  {{ content | safe }}
-</article>
+
+<div class="wrapper">
+  <article>
+    {{ content | safe }}
+  </article>
+</div>
+
 {% endblock %}
