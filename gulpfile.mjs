@@ -11,7 +11,7 @@ import sass from "./gulp-tasks/sass.mjs";
 // prevent the task being run when we run `gulp watch`, but it
 // will run when a file changes.
 const watcher = () => {
-  gulpWatch("./src/images/**/*", { ignoreInitial: true }, images);
+  gulpWatch("./src/assets/images/**/*", { ignoreInitial: true }, images);
   gulpWatch("./src/scss/**/*.scss", { ignoreInitial: true }, sass);
 };
 
