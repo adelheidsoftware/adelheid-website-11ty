@@ -13,4 +13,4 @@ We are incredibly passionate about games, technology, and open source. We love c
 
 <br>
 
-Right now, Adelheid Software is just Aaron. However, there is an artist helping out with Posthaste! and we are actively looking for an artist to partner with.
+Right now, Adelheid Software is just Aaron. However, there is an artist helping out with **Posthaste!** and we are actively looking for an artist to partner with on our future projects.
