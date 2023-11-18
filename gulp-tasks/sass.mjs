@@ -1,9 +1,8 @@
-const {dest, src} = require('gulp');
-const cleanCSS = require('gulp-clean-css');
-const sassProcessor = require('gulp-sass');
-
-// We want to be using canonical Sass, rather than node-sass
-sassProcessor.compiler = require('sass');
+import gulp from "gulp";
+import cleanCSS from "gulp-clean-css";
+import * as dartSass from "sass";
+import gulpSass from "gulp-sass";
+const sassProcessor = gulpSass(dartSass);
 
 // Flags whether we compress the output etc
 const isProduction = process.env.NODE_ENV === 'production';
@@ -33,19 +32,19 @@ const calculateOutput = ({history}) => {
 // The main Sass method grabs all root Sass files,
 // processes them, then sends them to the output calculator
 const sass = () => {
-    return src('./src/scss/*.scss')
-      .pipe(sassProcessor().on('error', sassProcessor.logError))
-      .pipe(
-        cleanCSS(
-          isProduction
-            ? {
-                level: 2
-              }
-            : {}
-        )
-      )
-      .pipe(dest(calculateOutput, {sourceMaps: !isProduction}));
-  };
-  
-  module.exports = sass;
-  
+  return gulp
+    .src("./src/scss/*.scss")
+    .pipe(sassProcessor().on("error", sassProcessor.logError))
+    .pipe(
+      cleanCSS(
+        isProduction
+          ? {
+              level: 2,
+            }
+          : {},
+      ),
+    )
+    .pipe(gulp.dest(calculateOutput, { sourceMaps: !isProduction }));
+};
+
+export default sass;
