@@ -2,6 +2,7 @@ import gulp from "gulp";
 const { parallel, watch: gulpWatch } = gulp;
 
 // Pull in each task
+import fonts from "./gulp-tasks/fonts.mjs";
 import sass from "./gulp-tasks/sass.mjs";
 
 // Set each directory and contents that we want to watch and
@@ -13,7 +14,7 @@ const watcher = () => {
 };
 
 // The default (if someone just runs `gulp`) is to run each task in parallel
-export default parallel(sass);
+export default parallel(fonts, sass);
 
 // This is our watcher task that instructs gulp to watch directories and
 // act accordingly
