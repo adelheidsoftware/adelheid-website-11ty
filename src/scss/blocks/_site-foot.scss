@@ -2,4 +2,17 @@
     padding: get-size('500') 0 get-size('700') 0;
     text-align: center;
   }
+
+.footer-icons {
   
+}
+
+.frow {
+   display: inline-flex;
+}
+  
+.fcolumn {
+  flex: 33.33%;
+   padding-left: 10px;
+   vertical-align: middle;
+}
