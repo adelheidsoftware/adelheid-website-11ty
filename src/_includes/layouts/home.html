@@ -1,8 +1,9 @@
 {% extends "layouts/base.html" %}
+{% set pageCriticalStyles = ['css/page.css'] %}
 
 {% block content %}
 
-<div class="wrapper">
+<div class="[ page-content ] [ flow wrapper ] [ flow-space-700 gap-top-700 ]">
   <article>
     {{ content | safe }}
   </article>
