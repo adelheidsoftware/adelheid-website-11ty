@@ -10,4 +10,8 @@
 <article>
   {{ content | safe }}
 </article>
+
+{% set ctaContent = cta %} 
+{% include "partials/cta.html" %}
+
 {% endblock %}
