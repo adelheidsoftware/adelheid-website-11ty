@@ -19,4 +19,4 @@ We are an indie studio that develops games and game-related software solutions. 
 
 <br>
 
-Check out the other sectiosn of our website, including our games and software. There's not too much there right now, but we'll expand it over time!
+Check out the other sections of our website, including our games and software. There's not too much there right now, but we'll expand it over time!
