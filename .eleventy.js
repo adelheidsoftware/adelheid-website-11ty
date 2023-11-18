@@ -23,7 +23,8 @@ module.exports = config => {
     return [...collection.getFilteredByGlob('./src/blog/posts/*.md')].reverse();
   });
 
-
+  // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
+  config.setUseGitIgnore(false);
 	
   return {
     markdownTemplateEngine: 'njk',
