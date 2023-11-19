@@ -2,6 +2,7 @@
 title: 'About'
 layout: 'layouts/about.html'
 permalink: '/about/index.html'
+sitemapChangefreq: monthly
 displayFooter: true
 ---
 
