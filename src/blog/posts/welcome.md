@@ -2,7 +2,7 @@
 title: 'Welcome'
 date: '2023-11-17T06:20:00'
 tags: ['Meta']
-draft: false # TODO: Make drafts not show up in the blog feed
+draft: true
 ---
 Welcome to the Adelheid Software blog!
 
