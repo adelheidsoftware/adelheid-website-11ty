@@ -12,7 +12,7 @@ Adelheid Software is an independent game development studio founded in 2023 by A
 
 ## Our Mission
 
-We believe that games have the power to transport us to inspire us, foster creativity, and connect people from all walks of life. That's why we are committed to crafting games that are not only fun and entertaining but also thought-provoking and meaningful. We love creating things and sharing them with others, and it is our mission to provide great experiences to everyone.
+We believe that games have the power to inspire us, foster creativity, and connect people from all walks of life. That's why we are committed to crafting games that are not only fun and entertaining but also thought-provoking and meaningful. We love creating things and sharing them with others, and it is our mission to provide great experiences to everyone.
 
 <br>
 
