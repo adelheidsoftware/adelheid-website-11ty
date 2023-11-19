@@ -5,6 +5,8 @@ layout: 'layouts/home.html'
 intro:
   logoText: 'Adelheid Software'
 displayFooter: true
+sitemapPriority: 1.0
+sitemapChangefreq: daily
 ---
 
 # Welcome to Adelheid Software!
