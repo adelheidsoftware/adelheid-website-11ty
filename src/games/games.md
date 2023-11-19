@@ -12,6 +12,8 @@ All of our games are made using the [Godot](https://godotengine.org/) game engin
 **Development Phase**: Active Development\
 **Release Date**: Summer 2024
 
+We are currently working with an independent artist on this title.
+
 ## Project Artemis
 
 **Project Artemis** is the codename and working title for a 2D Metroidvania set in a quasi-medieval period.\
