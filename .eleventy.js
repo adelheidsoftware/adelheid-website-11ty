@@ -6,6 +6,12 @@ const w3DateFilter = require('./src/filters/w3-date-filter.js');
 const dateTimeFilter = require('./src/filters/datetime-filter.js');
 const format = require('date-fns/format')
 
+// Transforms
+const htmlMinTransform = require('./src/transforms/html-min-transform.js');
+
+// Create a helpful production flag
+const isProduction = process.env.NODE_ENV === 'production';
+
 module.exports = config => {
 
   // Plugins
@@ -21,8 +27,13 @@ module.exports = config => {
     return format(date, dateFormat)
   })
 
+  // Only minify HTML if we are in production because it slows builds down
+  if (isProduction) {
+    config.addTransform('htmlmin', htmlMinTransform);
+  }
+
   // Pass through image assets to build directory
-  config.addPassthroughCopy('./src/assets/images/');
+  // config.addPassthroughCopy('./src/assets/images/'); // Don't need this because of gulp and HTML minifier?
 
   // Returns a collection of blog posts in reverse order (newest first)
   config.addCollection('blog', collection => {
