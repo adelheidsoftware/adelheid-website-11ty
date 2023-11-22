@@ -4,15 +4,23 @@
   }
 
 .footer-icons {
+  svg {
+    color: get-color('dark-shade') !important;
+    width: 32px;
+    height: 32px;
+  }
   
+  svg:hover {
+    color: get-color('quaternary') !important;
+  }
 }
 
-.frow {
+.icon-row {
    display: inline-flex;
 }
-  
-.fcolumn {
+
+.icon-column {
   flex: 33.33%;
-   padding-left: 10px;
-   vertical-align: middle;
+  padding-left: 10px;
+  vertical-align: middle;
 }
