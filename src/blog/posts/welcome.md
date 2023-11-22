@@ -1,6 +1,7 @@
 ---
 title: 'Welcome'
 date: '2023-11-17T06:20:00'
+author: 'Aaron Yoder'
 tags: ['Meta']
 draft: true
 ---
