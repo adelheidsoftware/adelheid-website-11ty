@@ -5,6 +5,7 @@
 
   &[class] {
     margin-inline-start: -#{get-size('300')};
+    font-size: get-size('400');
   }
 
   > * {
