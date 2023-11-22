@@ -27,6 +27,13 @@ time[post-time] {
   line-height: 1
 }
 
+p.draft-label {
+  font-style: italic;
+  font-size: get-size('700');
+  color: gray;
+  line-height: 2;
+}
+
 // Pull in blocks
 @import 'blocks/post-list';
 @import 'blocks/pagination';

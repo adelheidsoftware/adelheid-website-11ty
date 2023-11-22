@@ -5,17 +5,26 @@
 
 {# Grab other posts that aren’t this one for the 'recommended posts' feed #}
 {% set recommendedPosts = helpers.getSiblingContent(collections.blog, page) %}
-
 {% set pageHeaderSummary %}
+  <col>
+  {# Render draft label #}
+  {% if draft %}
+  <p class="draft-label">(Draft)</p>
+  {% endif %}
   {# Render post author #}
   {% if author %}
-  <b>By {{ author }}</b>
-  {% endif %}
+  <div class="author">
+    <b>By {{ author }}</b>
+  </div>
   {# Render post date #}
-  <col>
-    <time post-date="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
-    <time post-time="{{ date | w3DateFilter }}">{{ date | timeFilter }}</time>
-  </col>
+  <div>
+    <col>
+      <time post-date="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
+      <time post-time="{{ date | w3DateFilter }}">{{ date | timeFilter }}</time>
+    </col>
+  </div>
+  {% endif %}
+
   {# Render post tags #}
   {% if tags %}
   <p class="visually-hidden" id="tags-desc">Tags</p>
@@ -27,6 +36,7 @@
     {% endfor %}
   </ul>
   {% endif %}
+  </col>
 {% endset %}
 
 {% block content %}
