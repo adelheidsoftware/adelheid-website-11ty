@@ -10,24 +10,29 @@ Adelheid Software is an independent game development studio founded in 2023 by A
 
 <br>
 
-## Our Mission
+# Our Story
 
-We believe that games have the power to inspire us, foster creativity, and connect people from all walks of life. That's why we are committed to crafting games that are not only fun and entertaining but also thought-provoking and meaningful. We love creating things and sharing them with others, and it is our mission to provide great experiences to everyone.
+Adelheid Software started as an idea in 2018, when Aaron was working on [Riskrieg](https://www.riskrieg.com/), a world-domination simulation game designed to be played via Discord. After working on Riskrieg for 3 years and building up a community and a brand, Aaron decided to sit down and work on his dream of creating a game development studio. That idea became Adelheid Software.
 
 <br>
 
-## Our Values
+### Our Mission
+
+We believe that games are people-driven and have the power to inspire us, foster creativity, and connect people from all walks of life. That's why we are committed to crafting games that are not only fun and entertaining but also thought-provoking and meaningful. We love creating things and sharing them with others, and it is our mission to craft experiences that inspire and bring people together.
+
+<br>
+
+### Our Values
 
 At Adelheid Software, we are guided by the following core values:
 
-* **Innovation**: We are constantly striving to push the boundaries of game development and explore new possibilities.
-* **Quality**: We are committed to delivering high-quality games that meet the highest standards of excellence.
-* **Community**: We value the feedback and support of our players and are always looking for ways to engage more closely with them.
+* **Quality**: [A delayed game is eventually good, but a rushed game is forever bad](https://www.ign.com/articles/did-miyamoto-really-say-a-delayed-game-is-eventually-good-but-a-rushed-game-is-forever-bad). We are committed to delivering high-quality games and releasing them when they are ready. We want to respect both our players and our team.
+* **Community**: Our community is everything. We value the feedback and support of our players and are always looking for ways to engage more closely with them.
 * **Open Source**: We believe in the power of open source software and are committed to giving back to the community.
 
 <br>
 
-## Our Team
+# Our Team
 
 Adelheid Software is currently a one-person team, but we are actively seeking talented individuals to join our ranks. We are particularly interested in collaborating with an artist who shares our passion for creating immersive and meaningful experiences.
 
