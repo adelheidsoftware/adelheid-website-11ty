@@ -2,6 +2,7 @@ const rssPlugin = require('@11ty/eleventy-plugin-rss');
 
 // Filters
 const dateFilter = require('./src/filters/date-filter.js');
+const timeFilter = require('./src/filters/time-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
 const dateTimeFilter = require('./src/filters/datetime-filter.js');
 const format = require('date-fns/format')
@@ -19,6 +20,7 @@ module.exports = config => {
 
   // Add filters
   config.addFilter('dateFilter', dateFilter);
+  config.addFilter('timeFilter', timeFilter);
   config.addFilter('w3DateFilter', w3DateFilter);
   config.addFilter('dateTimeFilter', dateTimeFilter);
 
