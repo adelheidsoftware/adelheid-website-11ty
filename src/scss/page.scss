@@ -15,6 +15,18 @@ time[datetime] {
   font-style: italic;
 }
 
+time[post-date] {
+  display: block;
+  font-size: get-size('500');
+  line-height: 1.5
+}
+
+time[post-time] {
+  display: block;
+  font-size: get-size('400');
+  line-height: 1
+}
+
 // Pull in blocks
 @import 'blocks/post-list';
 @import 'blocks/pagination';

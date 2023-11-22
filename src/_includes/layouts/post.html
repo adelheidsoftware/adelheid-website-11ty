@@ -6,9 +6,16 @@
 {# Grab other posts that aren’t this one for the 'recommended posts' feed #}
 {% set recommendedPosts = helpers.getSiblingContent(collections.blog, page) %}
 
-{# Render post date #}
 {% set pageHeaderSummary %}
-  <time datetime="{{ date | w3DateFilter }}">{{ date | dateTimeFilter }}</time>
+  {# Render post author #}
+  {% if author %}
+  <b>By {{ author }}</b>
+  {% endif %}
+  {# Render post date #}
+  <col>
+    <time post-date="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
+    <time post-time="{{ date | w3DateFilter }}">{{ date | timeFilter }}</time>
+  </col>
   {# Render post tags #}
   {% if tags %}
   <p class="visually-hidden" id="tags-desc">Tags</p>

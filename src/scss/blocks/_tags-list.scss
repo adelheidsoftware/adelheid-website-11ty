@@ -4,11 +4,11 @@
   align-items: flex-start;
 
   &[class] {
-    margin-inline-start: -#{get-size('400')};
+    margin-inline-start: -#{get-size('300')};
   }
 
   > * {
-    padding-top: get-size('400');
-    padding-inline-start: get-size('400');
+    padding-top: get-size('300');
+    padding-inline-start: get-size('300');
   }
 }
