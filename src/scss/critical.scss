@@ -24,6 +24,30 @@
     color: currentColor;
     text-decoration-color: get-color('quinary');
   }
+
+  // Style links
+  a:link {
+    color: get-color('primary-shade');
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: get-color('primary-shade'); // Visited links won't look different
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: get-color('quinary-shade');
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: get-color('quaternary-shade');
+    text-decoration: underline;
+  }
   
   main:focus {
     outline: none;
