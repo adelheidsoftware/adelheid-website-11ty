@@ -1,4 +1,29 @@
 .site-head {
+
+    // Style nav links
+    a:link {
+      color: get-color('dark-shade');
+      text-decoration: none;
+    }
+    
+    /* visited link */
+    a:visited {
+      color: get-color('dark-shade');
+      text-decoration: none;
+    }
+    
+    /* mouse over link */
+    a:hover {
+      color: get-color('dark-shade');
+      text-decoration: none;
+    }
+    
+    /* selected link */
+    a:active {
+      color: get-color('dark-shade');
+      text-decoration: none;
+    }
+
     padding: get-size('600') 0;
   
     &__inner {
