@@ -14,8 +14,6 @@
   body {
     background: get-color('light');
     color: get-color('dark-shade');
-    line-height: 1.5;
-    font-size: get-size('500');
   
     @include apply-utility('font', 'base');
   }
@@ -51,16 +49,6 @@
   
   main:focus {
     outline: none;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4 {
-    font-weight: 900;
-  
-    @include apply-utility('font', 'sans');
-    @include apply-utility('leading', 'flat');
   }
   
   // High contrast selection because it can help visually-impaired

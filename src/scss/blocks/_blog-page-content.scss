@@ -1,0 +1,104 @@
+.blog-page-content {
+    @include apply-utility('leading', 'loose');
+  
+    > * {
+      @include apply-utility('measure', 'long');
+    }
+
+    body {
+        line-height: 1.25;
+    }
+
+    p, body, blockquote, ul, ol, dl, table, pre, details {
+      margin-top: 0;
+      margin-bottom: 16px;
+    }
+  
+    blockquote {
+      border-left: 0.25em solid get-color('quinary');
+      padding: 0 1em;
+      color: get-color('quinary');
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 24px;
+      margin-bottom: 16px;
+      line-height: 1.25;
+    }
+
+    h1 {
+      font-size: 2em;
+      padding-bottom: 0.3em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      padding-bottom: 0.3em;
+    }
+
+    h3 {
+      font-size: 1.25em;
+    }
+
+    h4 {
+      font-size: 1em;
+    }
+
+    h5 {
+      font-size: 0.875em;
+    }
+
+    h6 {
+      font-size: 0.85em;
+    }
+
+    p {
+      margin-top: 0;
+    }
+
+    pre {
+      overflow: auto;
+      font-size: 95%;
+      line-height: 1.45;
+      border-radius: 6px;
+      background-color: get-color('light-shade');
+      word-wrap: normal;
+      font-family: monospace;
+      padding: 8px 16px;
+      code { // Kinda hacky but whatever, cuz apparently the Markdown is parsed into a pre+code block for multiline codeblocks.
+        padding: 0;
+        background-color: get-color('light-shade');
+      }
+    }
+
+    code {
+      padding: 0.2em 0.4em;
+      margin: 0;
+      font-size: 95%;
+      white-space: break-spaces;
+      background-color: get-color('light-glare');
+      border-radius: 6px;
+      font-family: monospace;
+    }
+
+    ul, ol {
+      padding-left: 2em;
+    }
+  
+    li + li {
+      margin-top: get-size('300');
+    }
+  
+    // Add a greater flow space for heading elements so
+    // they appear more like article sections
+    h2,
+    h3 {
+      --flow-space: #{get-size('800')};
+    }
+  
+    // Add tighter flow for elements that follow a heading
+    h2 + *,
+    h3 + * {
+      --flow-space: #{get-size('300')};
+    }
+  }  

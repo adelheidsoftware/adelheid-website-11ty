@@ -34,22 +34,7 @@ p.draft-label {
   line-height: 2;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-weight: 900;
-
-  @include apply-utility('font', 'sans');
-  @include apply-utility('leading', 'flat');
-}
-
-body {
-  font-size: get-size('500');
-  line-height: 1.5;
-}
-
 // Pull in blocks
 @import 'blocks/post-list';
 @import 'blocks/pagination';
-@import 'blocks/page-content';
+@import 'blocks/blog-page-content';
