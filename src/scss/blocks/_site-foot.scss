@@ -1,7 +1,7 @@
 .site-foot {
     padding: get-size('500') 0 get-size('700') 0;
     text-align: center;
-  }
+}
   
 .footer-row {
   display: inline-flex;
@@ -79,5 +79,32 @@
     .copyright-statement {
       font-size: get-size('400');
     }
+  }
+}
+
+.theme-toggle {
+  background-color: transparent;
+  background: transparent;
+  width: 32px;
+  height: 32px;
+
+  .sun {
+    width: 32px;
+    height: 32px;
+  }
+
+  .moon {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.theme-icon-holder:hover {
+  cursor: pointer;
+  .sun:hover {
+    color: var(--color-primary);
+  }
+  .moon:hover {
+    color: var(--color-primary);
   }
 }
