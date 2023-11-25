@@ -65,13 +65,13 @@
   }
   
   ::-webkit-scrollbar-track {
-    background-color: transparent;
-    border: 1px solid var(--color-on-surface);
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-outline);
     border-radius: 0.25rem;
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: var(--color-on-surface-variant);
+    background-color: var(--color-on-surface);
     border-radius: 0.25rem;
   }  
 
