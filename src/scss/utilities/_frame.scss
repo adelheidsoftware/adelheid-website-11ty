@@ -29,7 +29,7 @@ $frame-colors: ('--color-primary', '--color-secondary', '--color-tertiary', '--c
   @each $frame-color in $frame-colors {
     &[data-frame='#{$frame-color}'] {
       &::before {
-        border-color: get-color($frame-color);
+        border-color: get-color($frame-color); // TODO: These colors have to be defined in gorko colors, apparently
       }
     }
   }

@@ -2,8 +2,10 @@
     @include apply-utility('leading', 'loose');
   
     > * {
-      @include apply-utility('measure', 'long');
+      @include apply-utility('measure', 'extra-long');
     }
+
+    padding-bottom: 70px;
 
     p, body, blockquote, ul, ol, dl, table, pre, details {
       margin-top: 0 !important;
