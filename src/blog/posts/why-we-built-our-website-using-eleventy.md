@@ -7,7 +7,6 @@ tags: ['Meta']
 
 I am not a web developer. When I started out on this journey to build a website, I had no idea how to use HTML and CSS, and I had minimal experience using JavaScript. I had looked at some web frameworks before, but none gave me as much control as I wanted, or were too large and confusing, and had too many things I didn't need. It took me a while, but I finally settled on [Eleventy](https://www.11ty.dev/). Let's take a look at the requirements that led me there.
 
-
 # Requirements
 
 ### Hard Requirements
@@ -28,7 +27,7 @@ I am not a web developer. When I started out on this journey to build a website,
 * I would be okay with a visual editor as long as it still gave me full control over how my website looked without requiring large levels of abstraction away from the source.
 * I want to be able to write blog posts using markdown, with optional HTML, much like the GitHub markdown editor.
 
-As you can see, my requirements quickly threw out solutions such as WordPress, SquareSpace, Shopify, Wix, and most other solutions with built-in visual editors. It also threw out JavaScript frameworks such as React, Vue, Angular, and Svelte. Let's take a look at the solutions I did end up attempting to use before finally settling on Eleventy.
+As you can see, my requirements quickly threw out solutions such as WordPress, SquareSpace, Shopify, Wix, and most other solutions with built-in visual editors. It also threw out JavaScript frameworks such as React, Vue, and Svelte. Let's take a look at the solutions I did end up attempting to use before finally settling on Eleventy.
 
 # What We Tried
 
@@ -83,6 +82,6 @@ To summarize, this is everything we use to build our website.
 * Cloudflare Pages for hosting
 * Cloudflare Registrar for our domain
 
-That's it! Nice and simple, and flexible enough to give us room to grow.
+Nice and simple, and flexible enough to give us room to grow. The only cost associated with our stack is the wholesale domain cost, which is $10.11/yr (USD) for our domain. That's it!
 
 Thanks for reading!
