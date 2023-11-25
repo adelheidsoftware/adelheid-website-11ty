@@ -1,3 +1,6 @@
 .page-header {
     padding: get-size('800') 0;
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+    font-size: get-size('500');
   }   

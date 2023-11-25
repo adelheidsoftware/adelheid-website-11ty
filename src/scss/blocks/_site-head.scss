@@ -1,26 +1,28 @@
 .site-head {
 
+    font-size: get-size('500');
+
     // Style nav links
     a:link {
-      color: get-color('dark-shade');
+      color: var(--color-on-background);
       text-decoration: none;
     }
     
     /* visited link */
     a:visited {
-      color: get-color('dark-shade');
+      color: var(--color-on-background);
       text-decoration: none;
     }
     
     /* mouse over link */
     a:hover {
-      color: get-color('dark-shade');
+      color: var(--color-on-background);
       text-decoration: none;
     }
     
     /* selected link */
     a:active {
-      color: get-color('dark-shade');
+      color: var(--color-on-background);
       text-decoration: none;
     }
 

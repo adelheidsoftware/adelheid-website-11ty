@@ -41,13 +41,13 @@
   }
 
   svg {
-    color: get-color('dark-shade') !important;
+    color: var(--color-on-background) !important;
     width: 32px;
     height: 32px;
   }
   
   svg:hover {
-    color: get-color('quaternary') !important;
+    color: var(--color-tertiary) !important;
   }
 }
 

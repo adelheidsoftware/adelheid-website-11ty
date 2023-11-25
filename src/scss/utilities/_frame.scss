@@ -1,4 +1,4 @@
-$frame-colors: ('primary', 'secondary', 'quaternary', 'quinary');
+$frame-colors: ('--color-primary', '--color-secondary', '--color-tertiary', '--color-outline');
 
 .frame {
   position: relative;
@@ -15,7 +15,7 @@ $frame-colors: ('primary', 'secondary', 'quaternary', 'quinary');
     position: absolute;
     top: -0.25rem;
     left: -0.25rem;
-    border: 0.125rem solid get-color('dark');
+    border: 0.125rem solid var(--color-on-surface);
     z-index: 1;
 
     @include media-query('md') {

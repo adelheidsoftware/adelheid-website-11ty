@@ -5,84 +5,81 @@
       @include apply-utility('measure', 'long');
     }
 
-    body {
-        line-height: 1.25;
-    }
-
     p, body, blockquote, ul, ol, dl, table, pre, details {
-      margin-top: 0;
-      margin-bottom: 16px;
+      margin-top: 0 !important;
+      margin-bottom: 16px !important;
+      font-size: initial !important;
     }
   
     blockquote {
-      border-left: 0.25em solid get-color('quinary');
-      padding: 0 1em;
-      color: get-color('quinary');
+      border-left: 0.25em solid var(--color-primary);
+      padding: 0 1em !important;
+      color: var(--color-secondary);
     }
 
     h1, h2, h3, h4, h5, h6 {
-      margin-top: 24px;
-      margin-bottom: 16px;
-      line-height: 1.25;
+      margin-top: 24px !important;
+      margin-bottom: 16px !important;
+      line-height: 1.25 !important;
     }
 
     h1 {
-      font-size: 2em;
-      padding-bottom: 0.3em;
+      font-size: 2em !important;
+      padding-bottom: 0.3em !important;
     }
 
     h2 {
-      font-size: 1.5em;
-      padding-bottom: 0.3em;
+      font-size: 1.5em !important;
+      padding-bottom: 0.3em !important;
     }
 
     h3 {
-      font-size: 1.25em;
+      font-size: 1.25em !important;
     }
 
     h4 {
-      font-size: 1em;
+      font-size: 1em !important;
     }
 
     h5 {
-      font-size: 0.875em;
+      font-size: 0.875em !important;
     }
 
     h6 {
-      font-size: 0.85em;
+      font-size: 0.85em !important;
     }
 
     p {
-      margin-top: 0;
+      margin-top: 0 !important;
     }
 
     pre {
       overflow: auto;
       font-size: 95%;
-      line-height: 1.45;
+      line-height: 1.45 !important;
       border-radius: 6px;
-      background-color: get-color('light-shade');
+      background-color: var(--color-surface-variant);
       word-wrap: normal;
       font-family: monospace;
-      padding: 8px 16px;
+      padding: 8px 16px !important;
       code { // Kinda hacky but whatever, cuz apparently the Markdown is parsed into a pre+code block for multiline codeblocks.
-        padding: 0;
-        background-color: get-color('light-shade');
+        padding: 0 !important;
+        background-color: var(--color-surface-variant);
       }
     }
 
     code {
-      padding: 0.2em 0.4em;
-      margin: 0;
+      padding: 0.2em 0.4em !important;
+      margin: 0 !important;
       font-size: 95%;
       white-space: break-spaces;
-      background-color: get-color('light-glare');
+      background-color: var(--color-surface-variant);
       border-radius: 6px;
       font-family: monospace;
     }
 
     ul, ol {
-      padding-left: 2em;
+      padding-left: 2em !important;
     }
   
     li + li {
