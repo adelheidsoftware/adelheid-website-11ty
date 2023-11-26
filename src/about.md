@@ -26,7 +26,7 @@ At Adelheid Software, we are guided by the following core values:
 
 ## Our Team
 
-Adelheid Software is currently a one-person team, but we are actively seeking talented individuals to join our ranks. We are particularly interested in collaborating with an artist who shares our passion for creating immersive and meaningful experiences.
+Adelheid Software is currently a one-person team, but we are actively seeking a talented artiost to join our ranks. If you are someone who shares our passion for creating immersive and meaningful experiences, don't hesitate to get in touch.
 
 ### Get Involved
 
