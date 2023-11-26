@@ -8,19 +8,13 @@ displayFooter: true
 
 Adelheid Software is an independent game development studio founded in 2023 by Aaron Yoder, a passionate software developer based in Columbus, Ohio. We are dedicated to creating innovative and engaging games that deliver exceptional experiences for all players.
 
-<br>
-
-# Our Story
+## Our Story
 
 Adelheid Software started as an idea in 2018, when Aaron was working on [Riskrieg](https://www.riskrieg.com/), a world-domination simulation game designed to be played via Discord. After working on Riskrieg for 3 years and building up a community and a brand, Aaron decided to sit down and work on his dream of creating a game development studio. That idea became Adelheid Software.
-
-<br>
 
 ### Our Mission
 
 We believe that games are people-driven and have the power to inspire us, foster creativity, and connect people from all walks of life. That's why we are committed to crafting games that are not only fun and entertaining but also thought-provoking and meaningful. We love creating things and sharing them with others, and it is our mission to craft experiences that inspire and bring people together.
-
-<br>
 
 ### Our Values
 
@@ -30,14 +24,10 @@ At Adelheid Software, we are guided by the following core values:
 * **Community**: Our community is everything. We value the feedback and support of our players and are always looking for ways to engage more closely with them.
 * **Open Source**: We believe in the power of open source software and are committed to giving back to the community.
 
-<br>
-
-# Our Team
+## Our Team
 
 Adelheid Software is currently a one-person team, but we are actively seeking talented individuals to join our ranks. We are particularly interested in collaborating with an artist who shares our passion for creating immersive and meaningful experiences.
 
-<br>
-
-## Get Involved
+### Get Involved
 
 We invite you to join us on our journey as we create the next generation of groundbreaking games. Check out our [blog](https://adelheid.org/blog/) and [join Discord](https://discord.gg/8uWduVrUUa) to stay up-to-date on our latest projects, and contact us if you are interested in getting involved.
