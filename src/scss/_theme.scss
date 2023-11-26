@@ -1,19 +1,19 @@
 @mixin light-theme-base {
     // Primary
-    --color-primary: #8a5100;
+    --color-primary: #96490a;
     --color-on-primary: #ffffff;
-    --color-primary-container: #ffdcbe;
-    --color-on-primary-container: #2c1600;
+    --color-primary-container: #ffdbc8;
+    --color-on-primary-container: #321300;
     // Secondary
-    --color-secondary: #96490a;
+    --color-secondary: #744F28;
     --color-on-secondary: #ffffff;
-    --color-secondary-container: #ffdbc8;
-    --color-on-secondary-container: #321300;
+    --color-secondary-container: #ffdcbe;
+    --color-on-secondary-container: #2c1600;
     // Tertiary / Accent
-    --color-tertiary: #9c413e;
+    --color-tertiary: #b02b33;
     --color-on-tertiary: #ffffff;
-    --color-tertiary-container: #ffdad7;
-    --color-on-tertiary-container: #410004;
+    --color-tertiary-container: #ffdad8;
+    --color-on-tertiary-container: #410006;
     // Error
     --color-error: #ba1a1a;
     --color-on-error: #ffffff;
@@ -23,33 +23,33 @@
     --color-background: #E0DBE3;
     --color-on-background: #161913;
     // Surface
-    --color-surface: #E0DBE3;
-    --color-on-surface: #161913;
+    --color-surface: #fffbff;
+    --color-on-surface: #201a17;
     // Surface variant
-    --color-surface-variant: #f2dfd1;
-    --color-on-surface-variant: #51453a;
+    --color-surface-variant: #f4ded3;
+    --color-on-surface-variant: #52443c;
     // Outline
-    --color-outline: #837468;
+    --color-outline: #85746b;
     // Background color when hovering over some elements
     --color-hover-background: #00000026;
 }
 
 @mixin dark-theme-base {
     // Primary
-    --color-primary: #ffb86f;
-    --color-on-primary: #4a2800;
-    --color-primary-container: #693c00;
-    --color-on-primary-container: #ffdcbe;
+    --color-primary: #ffb68a;
+    --color-on-primary: #522300;
+    --color-primary-container: #743500;
+    --color-on-primary-container: #ffdbc8;
     // Secondary
-    --color-secondary: #ffb68a;
-    --color-on-secondary: #522300;
-    --color-secondary-container: #743500;
-    --color-on-secondary-container: #ffdbc8;
+    --color-secondary: #ffb86f;
+    --color-on-secondary: #4a2800;
+    --color-secondary-container: #693c00;
+    --color-on-secondary-container: #ffdcbe;
     // Tertiary / Accent
-    --color-tertiary: #ffb3ae;
-    --color-on-tertiary: #5f1415;
-    --color-tertiary-container: #7e2a29;
-    --color-on-tertiary-container: #ffdad7;
+    --color-tertiary: #f5be48;
+    --color-on-tertiary: #402d00;
+    --color-tertiary-container: #5d4200;
+    --color-on-tertiary-container: #ffdea3;
     // Error
     --color-error: #ffb4ab;
     --color-on-error: #690005;
@@ -59,13 +59,13 @@
     --color-background: #161913;
     --color-on-background: #E0DBE3;
     // Surface
-    --color-surface: #161913;
-    --color-on-surface: #E0DBE3;
+    --color-surface: #201a17;
+    --color-on-surface: #ece0da;
     // Surface variant
-    --color-surface-variant: #51453a;
-    --color-on-surface-variant: #d5c3b5;
+    --color-surface-variant: #52443c;
+    --color-on-surface-variant: #d7c2b8;
     // Outline
-    --color-outline: #9d8e81;
+    --color-outline: #9f8d84;
     // Background color when hovering over some elements
     --color-hover-background: #FFFFFF26;
 }
