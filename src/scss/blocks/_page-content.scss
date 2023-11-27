@@ -4,6 +4,8 @@
     > * {
       @include apply-utility('measure', 'long');
     }
+
+    padding-bottom: 2rem;
   
     blockquote {
       border-inline-start: 1rem solid var(--color-primary);
