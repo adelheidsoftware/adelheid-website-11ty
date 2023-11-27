@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 title: 'Adelheid Software Blog'
 summary: 'A feed of the latest posts from our blog.'
 permalink: '/feed.xml'
@@ -10,7 +11,7 @@ permalink: '/feed.xml'
 	<link href="{{ site.url }}{{ permalink }}" rel="self"/>
 	<link href="{{ site.url }}/"/>
 	<updated>{{ collections.blog | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
-	<id>{{ site.url }}</id>
+	<id>{{ site.url }}/</id>
 	<author>
     <name>{{ site.authorName }}</name>
     <email>{{ site.authorEmail }}</email>
