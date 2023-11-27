@@ -3,7 +3,7 @@
   
     display: inline-block;
     padding: 0.5rem 2rem;
-    border: 2px solid;
+    border: 0px solid;
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
@@ -14,14 +14,14 @@
     // Make sure hover state trumps all variants with a good ol’ important
     &:hover {
       background: var(--color-tertiary) !important;
-      color: var(--color-background) !important;
+      color: var(--color-on-tertiary) !important;
       text-decoration: none;
     }
   
     // Add a ghost modifier
     &[data-variant='ghost'] {
-      background: transparent;
-      color: var(--color-tertiary);
+      background: var(--color-on-surface-variant);
+      color: var(--color-surface);
     }
   }
   
