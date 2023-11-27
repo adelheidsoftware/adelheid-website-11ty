@@ -2,15 +2,15 @@
 title: 'About'
 layout: 'layouts/about.html'
 permalink: '/about/index.html'
-sitemapChangefreq: monthly
+sitemapChangefreq: weekly
 displayFooter: true
 ---
 
-Adelheid Software is an independent game development studio founded in 2023 by Aaron Yoder, a passionate software developer based in Columbus, Ohio. We are dedicated to creating innovative and engaging games that deliver exceptional experiences for all players.
+Adelheid Software is an independent game and software development studio founded in **Columbus, Ohio** on Saturday, **November 18, 2023** by Aaron Yoder.
 
 ## Our Story
 
-Adelheid Software started as an idea in 2018, when Aaron was working on [Riskrieg](https://www.riskrieg.com/), a world-domination simulation game designed to be played via Discord. After working on Riskrieg for 3 years and building up a community and a brand, Aaron decided to sit down and work on his dream of creating a game development studio. That idea became Adelheid Software.
+**Adelheid Software** started as an idea in 2018, when Aaron was working on [Riskrieg](https://www.riskrieg.com/), a world-domination simulation game designed to be played via Discord. After working on Riskrieg for 3 years and building up a community and a brand, Aaron decided to sit down and work on his dream of creating a game development studio. That idea became Adelheid Software.
 
 ### Our Mission
 
@@ -26,7 +26,7 @@ At Adelheid Software, we are guided by the following core values:
 
 ## Our Team
 
-Adelheid Software is currently a one-person team, but we are actively seeking a talented artiost to join our ranks. If you are someone who shares our passion for creating immersive and meaningful experiences, don't hesitate to get in touch.
+Adelheid Software is currently a one-person team, but we are actively seeking a talented artist to join our ranks. If you are someone who shares our passion for creating immersive and meaningful experiences, don't hesitate to get in touch.
 
 ### Get Involved
 
