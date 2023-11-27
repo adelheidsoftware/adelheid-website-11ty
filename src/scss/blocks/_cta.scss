@@ -1,6 +1,6 @@
 .cta {
-    background-color: var(--color-background);
-    color: var(--color-on-background);
+    background-color: var(--color-surface-variant);
+    color: var(--color-on-surface-variant);
   
     @include media-query('md') {
       &__inner {
