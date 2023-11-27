@@ -29,10 +29,8 @@ module.exports = config => {
     return format(date, dateFormat)
   })
 
-  // Only minify HTML if we are in production because it slows builds down
-  if (isProduction) {
-    config.addTransform('htmlmin', htmlMinTransform);
-  }
+  // Minify HTML
+  config.addTransform('htmlmin', htmlMinTransform);
 
   // Pass through image assets to build directory
   // config.addPassthroughCopy('./src/assets/images/'); // Don't need this because of gulp and HTML minifier?
