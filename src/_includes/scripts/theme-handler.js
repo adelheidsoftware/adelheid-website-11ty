@@ -7,7 +7,7 @@ if (!preferredTheme) {
 }
 
 document.documentElement.setAttribute('data-theme', preferredTheme || defaultTheme);
-html.dataset.theme = preferredTheme || defaultTheme; // Useless?
+// html.dataset.theme = preferredTheme || defaultTheme; // Useless?
 
 function onThemeToggleClick() {
     // Check if the saved theme in localStorage is  "dark"
@@ -17,5 +17,5 @@ function onThemeToggleClick() {
     // Changes the theme to the newTheme
     localStorage.setItem("theme", newTheme);
     document.documentElement.setAttribute('data-theme', newTheme);
-    html.dataset.theme = newTheme; // Useless?
+    // html.dataset.theme = newTheme; // Useless?
 }
