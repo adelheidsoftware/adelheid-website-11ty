@@ -16,6 +16,7 @@ permalink: '/feed.xml'
     <email>{{ site.authorEmail }}</email>
 	</author>
 	{% for post in collections.blog %}
+    {% if post.data.draft != true and post.data.excludeFromSitemap != true %}
     {% set absolutePostUrl %}{{ site.url }}{{ post.url | url }}{% endset %}
     <entry>
       <title>{{ post.data.title }}</title>
@@ -26,5 +27,6 @@ permalink: '/feed.xml'
         {{ post.templateContent | safe }}
       ]]></content>
     </entry>
+    {% endif %}
 	{% endfor %}
 </feed>
