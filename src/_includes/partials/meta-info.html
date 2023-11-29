@@ -8,8 +8,7 @@
 {% set siteTitle = site.name %}
 {% set currentUrl = site.url + page.url %}
 
-{# If the page’s front matter has specific metaTitle and/or metaDesc items, switch 
-  them into the mix. #}
+{# If the page’s front matter has specific metaTitle and/or metaDesc items, switch them into the mix. #}
 {% if metaTitle %}
   {% set pageTitle = metaTitle %}
 {% endif %}
@@ -20,7 +19,7 @@
 
 <!-- Primary Meta Tags -->
 <title>{{ pageTitle }}</title>
-<meta name="theme-color" content="#BD8A6B">
+<meta name="theme-color" content="{{ site.themeColorHex }}">
 
 <link rel="icon" href="/assets/images/icons/favicons/favicon.png" type="image/png" /> <!-- TODO: Fix SVG version and use that instead -->
 

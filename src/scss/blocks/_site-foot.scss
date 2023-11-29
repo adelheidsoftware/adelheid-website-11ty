@@ -22,15 +22,15 @@
   flex-direction: column;
   align-items: left;
   text-align: left;
-}
 
-.section-title {
-  line-height: 0;
-}
-
-.section-item {
-  font-size: get-size('400');
-  line-height: 1.5;
+  .section-title {
+    line-height: 0;
+  }
+  
+  .section-item {
+    font-size: get-size('400');
+    line-height: 1.5;
+  }
 }
 
 .social-icons {

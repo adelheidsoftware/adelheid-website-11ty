@@ -1,0 +1,39 @@
+.theme-toggle {
+    background-color: transparent;
+    background: transparent;
+    width: 32px;
+    height: 32px;
+  
+    .sun {
+      width: 32px;
+      height: 32px;
+    }
+  
+    .moon {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  
+  .theme-icon-holder { // TODO: Add a generalized icon holder for hover effect and style that instead
+    /* don't take the whole line */
+    display: inline-block;
+    transition: background-color 0.25s;
+    height: 2em;
+    width: 2em;
+    /* space between the icon and the background edge */
+    padding: 0.25em;
+    /* make it rounded */
+    border-radius: 50%;
+  }
+  
+  .theme-icon-holder:hover {
+    background-color: var(--color-hover-background);
+    cursor: pointer;
+    .sun:hover {
+      color: var(--color-primary);
+    }
+    .moon:hover {
+      color: var(--color-primary);
+    }
+  }

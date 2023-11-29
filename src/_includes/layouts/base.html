@@ -1,17 +1,19 @@
-{% set assetHash = global.random() %}
+{% set assetHash = global.random() %} <!-- Ensure CSS elements always have a random hash so visitors always have latest CSS. -->
+
+<!-- All layouts inherit from this one -->
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" /> <!-- Render as Edge, I think not necessary -->
     {% include "partials/meta-info.html" %}
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
 
     <style>{% include "css/critical.css" %}</style>
 
-    {# Add facility for pages to delare an array of critical styles #}
+    {# Add facility for pages to declare an array of critical styles #}
     {% if pageCriticalStyles %}
       {% for item in pageCriticalStyles %}
         <style>{% include item %}</style>
