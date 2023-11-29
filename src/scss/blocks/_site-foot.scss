@@ -55,16 +55,6 @@
   }
 }
 
-.icon-row {
-   display: inline-flex;
-}
-
-.icon-column {
-  flex: 33.33%;
-  padding-left: 10px;
-  vertical-align: middle;
-}
-
 .subfooter { // We want brand icon left-aligned, and copyright statement centered
   display: inline-flex;
   width: 100%;
@@ -83,45 +73,5 @@
     .copyright-statement {
       font-size: get-size('400');
     }
-  }
-}
-
-.theme-toggle {
-  background-color: transparent;
-  background: transparent;
-  width: 32px;
-  height: 32px;
-
-  .sun {
-    width: 32px;
-    height: 32px;
-  }
-
-  .moon {
-    width: 32px;
-    height: 32px;
-  }
-}
-
-.theme-icon-holder { // TODO: Add a generalized icon holder for hover effect and style that instead
-  /* don't take the whole line */
-  display: inline-block;
-  transition: background-color 0.25s;
-  height: 2em;
-  width: 2em;
-  /* space between the icon and the background edge */
-  padding: 0.25em;
-  /* make it rounded */
-  border-radius: 50%;
-}
-
-.theme-icon-holder:hover {
-  background-color: var(--color-hover-background);
-  cursor: pointer;
-  .sun:hover {
-    color: var(--color-primary);
-  }
-  .moon:hover {
-    color: var(--color-primary);
   }
 }
