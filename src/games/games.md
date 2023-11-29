@@ -1,6 +1,6 @@
 ---
 title: 'Games'
-layout: 'layouts/games.html'
+layout: 'layouts/games.njk'
 ---
 
 # Games

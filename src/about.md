@@ -1,6 +1,6 @@
 ---
 title: 'About'
-layout: 'layouts/about.html'
+layout: 'layouts/about.njk'
 permalink: '/about/index.html'
 sitemapChangefreq: weekly
 displayFooter: true

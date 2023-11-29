@@ -1,6 +1,6 @@
 ---
 title: 'Blog'
-layout: 'layouts/feed.html'
+layout: 'layouts/feed.njk'
 pagination:
   data: collections.blog
   size: 25

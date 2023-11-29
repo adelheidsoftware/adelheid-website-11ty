@@ -1,6 +1,6 @@
 ---
 title: 'Software'
-layout: 'layouts/software.html'
+layout: 'layouts/software.njk'
 ---
 
 # Software

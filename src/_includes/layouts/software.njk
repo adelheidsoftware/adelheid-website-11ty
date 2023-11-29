@@ -1,4 +1,4 @@
-{% extends "layouts/base.html" %}
+{% extends "layouts/base.njk" %}
 {% set pageCriticalStyles = ['css/page.css'] %}
 
 {% block content %}
@@ -6,8 +6,5 @@
 <div class="[ page-content ] [ flow wrapper ] [ flow-space-700 gap-top-700 ]">
     {{ content | safe }}
 </div>
-
-{% set ctaContent = cta %} 
-{% include "partials/cta.html" %}
 
 {% endblock %}

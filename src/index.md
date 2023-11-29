@@ -1,7 +1,7 @@
 ---
 title: 'Adelheid Software'
 metaDesc: 'An indie studio that develops games and game-related software solutions.'
-layout: 'layouts/home.html'
+layout: 'layouts/home.njk'
 intro:
   logoText: 'Adelheid Software'
 displayFooter: true
