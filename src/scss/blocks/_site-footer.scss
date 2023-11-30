@@ -30,28 +30,32 @@
     }
   }
 
-}
-
-.social-icons {
-  display: inline-flex;
-  flex-direction: row;
-  padding-inline-end: 10px;
-  vertical-align: middle;
-  align-self: center;
-
-  .social-link {
-    margin:0 10px 10px 0;
-  }
-
-  svg {
-    color: var(--color-on-background) !important;
-    width: 32px;
-    height: 32px;
-  }
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    //padding-inline-end: 10px;
+    //vertical-align: middle;
+    //align-self: center;
+    //align-items: center;
+    //justify-content: center;
   
-  svg:hover {
-    color: var(--color-tertiary) !important;
+    .social-link {
+      margin:0 10px 10px 0;
+      display: flex;
+
+      svg {
+        color: var(--color-on-background) !important;
+        width: 32px;
+        height: 32px;
+        //align-self: center;
+      }
+      
+      svg:hover {
+        color: var(--color-tertiary) !important;
+      }
+    }
   }
+
 }
 
 .subfooter { // We want brand icon left-aligned, and copyright statement centered
