@@ -33,11 +33,8 @@
   .social-icons {
     display: flex;
     flex-direction: row;
-    //padding-inline-end: 10px;
-    //vertical-align: middle;
-    //align-self: center;
-    //align-items: center;
-    //justify-content: center;
+    padding-inline-end: 10px;
+    align-items: center;
   
     .social-link {
       margin:0 10px 10px 0;
@@ -47,7 +44,6 @@
         color: var(--color-on-background) !important;
         width: 32px;
         height: 32px;
-        //align-self: center;
       }
       
       svg:hover {
