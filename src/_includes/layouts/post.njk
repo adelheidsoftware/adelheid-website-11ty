@@ -19,7 +19,7 @@
   {# Render post date #}
   <div>
     <col>
-      <time post-date="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
+      <time post-date="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time> <!-- TODO: Fix W3C Validator issues with this tag -->
       <time post-time="{{ date | w3DateFilter }}">{{ date | timeFilter }}</time>
     </col>
   </div>
