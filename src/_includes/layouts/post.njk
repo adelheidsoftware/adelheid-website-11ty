@@ -6,7 +6,7 @@
 {# Grab other posts that aren’t this one for the 'recommended posts' feed #}
 {% set recommendedPosts = helpers.getSiblingContent(collections.blog, page) %}
 {% set pageHeaderSummary %}
-  <col>
+  <col> <!-- TODO: Fix W3C Validator issues with this tag -->
   {# Render draft label #}
   {% if draft %}
   <p class="draft-label">(Draft)</p>
