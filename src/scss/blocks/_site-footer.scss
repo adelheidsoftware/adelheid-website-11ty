@@ -33,7 +33,7 @@
   .social-icons {
     display: flex;
     flex-direction: row;
-    padding-inline-end: 10px;
+    padding-inline-end: 10px; // Maybe don't need
     align-items: center;
   
     .social-link {
@@ -67,10 +67,8 @@
     margin: 0 auto 0 0;
   }
 
-  .copyright {
+  .copyright-statement {
     margin: 0 auto 0 0;
-    .copyright-statement {
-      font-size: get-size('400');
-    }
+    font-size: get-size('400');
   }
 }
