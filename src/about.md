@@ -14,7 +14,7 @@ Adelheid Software is an independent game and software development studio founded
 
 ### Our Mission
 
-We believe that games are people-driven and have the power to inspire connect us in a way not possible in other mediums. That's why we are committed to crafting games that are not only fun and entertaining, but also thought-provoking and deeply impactful. We put all of our effort into creating unforgettable experiences and useful tools, and it is our mission to craft these experiences and tools for you.
+We believe that games are people-driven and have the power to inspire and connect us in a way not possible in other mediums. That's why we are committed to crafting games that are not only fun and entertaining, but also thought-provoking and deeply impactful. We put all of our effort into creating unforgettable experiences and useful tools, and it is our mission to craft these experiences and tools for you.
 
 ### Our Values
 
