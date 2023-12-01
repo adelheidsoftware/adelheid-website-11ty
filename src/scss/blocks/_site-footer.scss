@@ -7,13 +7,9 @@
   width: 100%;
   flex-direction: column;
   align-items: center;
-
-  .separator {
-    width: calc(var(--page-max-width) - 2 * var(--page-gutter));
-  }
 }
   
-.footer-container {
+.footer-container { // TODO: Make sure elements in footer reach the end
   width: 100%;
   max-width: var(--page-max-width);
   box-sizing: border-box;
@@ -23,8 +19,7 @@
   padding: 0 var(--page-gutter);
 
   .footer-section {
-    grid-column-start: span 2;
-    grid-column-end: auto;
+    grid-column:span 2;
     margin-bottom: 40px;
   
     .section-title {
@@ -38,10 +33,15 @@
     }
   }
 
-  .social-icons {
-    grid-column-start: span 3;
-    grid-column-end: auto;
+  .spacer {
+    grid-column: span 1;
     grid-row-end: span 2;
+    display: initial;
+  }
+
+  .social-icons {
+    grid-column:span 3;
+    grid-row-end:span 2;
     
     display: flex;
     flex-direction: row;
@@ -66,23 +66,32 @@
 
 }
 
-.subfooter { // We want brand icon left-aligned, and copyright statement centered
-  display: inline-flex;
-  width: var(--page-max-width);
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly; // This with auto margins left-aligns first item only
-  margin-bottom: 16px;
+.subfooter {
+  width: 100%;
+  max-width: var(--page-max-width);
+  max-width: var(--page-max-width);
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(var(--num-grid-columns), 1fr);
+  gap: 0 20px;
   padding: 0 var(--page-gutter);
 
-  .brand {
-    width: 48px;
-    height: 48px;
-    margin: 0 auto 0 0;
-  }
+  .subfooter-container {
+    grid-column: span var(--num-grid-columns);
 
-  .copyright-statement {
-    margin: 0 auto 0 0;
-    font-size: get-size('400');
+    .subfooter-end-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .brand {
+        width: 48px;
+        height: 48px;
+      }
+    
+      .copyright-statement {
+        font-size: get-size('400');
+      }
+    }
   }
 }
