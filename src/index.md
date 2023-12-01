@@ -4,7 +4,6 @@ metaDesc: 'An indie studio that develops games and game-related software solutio
 layout: 'layouts/home.njk'
 intro:
   logoText: 'Adelheid Software'
-displayFooter: true
 sitemapPriority: 1.0
 sitemapChangefreq: daily
 ---
