@@ -94,7 +94,7 @@ The best part is that if you don't want to use Nunjucks or Sass, you don't have 
 
 Once everything is set up and ready to go, you can build your website locally and upload it to your favorite hosting service or host it yourself. If your hosting service has direct support for frameworks, you may also be able to ship your website from a code repository.
 
-In our case, we point Cloudflare Pages to [the project GitHub repository(https://github.com/adelheidsoftware/adelheid-website-11ty), set the build command in Cloudflare, and from there it automatically builds and deploys the website every time a change is pushed to the GitHub repository.
+In our case, we point Cloudflare Pages to [the project GitHub repository](https://github.com/adelheidsoftware/adelheid-website-11ty), set the build command in Cloudflare, and from there it automatically builds and deploys the website every time a change is pushed to the GitHub repository.
 
 There are alternatives you can also look into if you want, such as [Hugo](https://gohugo.io/) and [Angular](https://angular.io/); Eleventy is just the first one I found, and I found it very intuitive and easy to use.
 
