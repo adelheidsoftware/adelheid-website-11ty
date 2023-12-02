@@ -28,7 +28,10 @@
         <link rel="stylesheet" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'" />
       {% endfor %}
     {% endif %}
-
+    
+    <script>
+      {% include "scripts/theme-handler.js" %}
+    </script>
   </head>
   <body>
     <div class="site-wrap">
@@ -44,10 +47,6 @@
     <!-- Cloudflare Web Analytics -->
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f8c4262f7ac0455aae1a4eae6835d242"}'></script>
     <!-- End Cloudflare Web Analytics -->
-
-    <script>
-      {% include "scripts/theme-handler.js" %}
-    </script>
 
   </body>
 
