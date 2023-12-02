@@ -16,7 +16,7 @@
       }
   
       &__heading {
-        grid-column: 1/9;
+        grid-column: 1/9; // TODO: Letters like y, g, etc. are cut off at the bottom when highlighting if the heading is multi-line.
       }
   
       &__summary {
