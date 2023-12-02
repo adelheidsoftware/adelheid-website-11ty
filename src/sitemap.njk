@@ -7,9 +7,9 @@ permalink: /sitemap.xml
 {% for item in collections.all %}
     {% if item.data.draft != true and item.data.excludeFromSitemap != true %}
      <url>
-       <loc>{{ site.url }}{{ item.url }}</loc>
+      <loc>{{ site.url }}{{ item.url }}</loc>
       <lastmod>{{ item.date | date("yyyy-MM-dd")}}</lastmod>
-     <changefreq>{{ item.data.sitemapChangefreq | default("daily") }}</changefreq>
+      <changefreq>{{ item.data.sitemapChangefreq | default("daily") }}</changefreq>
       <priority>{{ item.data.sitemapPriority | default(0.8) }}</priority>
      </url>
     {% endif %}
