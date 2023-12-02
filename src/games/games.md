@@ -10,7 +10,7 @@ layout: 'layouts/games.njk'
 **Framework**: Custom Java/Kotlin framework\
 **Development Status**: Released\
 **Update Status**: On Hiatus\
-**Release Date**: 2018<sup>†</sup>
+**Release Date**: 2018<sup>1</sup>
 
 **Riskrieg** is a multiplayer world-domination simulation game. However, it is also much more than that. The Riskrieg community pioneered other uses for it including simulating their own custom worlds using player-built maps, running Dungeons & Dragons simulations, and using it as a tool to run conflict simulations in model diplomacy simulations.
 
@@ -20,7 +20,7 @@ While this game is considered complete, development on Riskrieg is officially **
 
 We know Riskrieg can be so much more than just a game played via a chat bot, but we cannot justify continual development effort with no funding.
 
-<sup>† As our first product, Riskrieg's release predates the founding of Adelheid Software.</sup>
+<sub><sup>1 As our first product, Riskrieg's release predates the founding of Adelheid Software.</sup></sub>
 
 ### Posthaste!
 
