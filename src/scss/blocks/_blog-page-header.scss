@@ -16,10 +16,26 @@ time[post-time] {
 	padding: get-size('600') 0;
 	background-color: var(--color-surface);
 	color: var(--color-on-surface);
+
+	.blog-back-button {
+		display: inline-flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+
+		p {
+			font-size: get-size('400');
+		}
+
+		svg {
+			width: 16px;
+			height: 16px;
+		}
+	}
 }
 
 .blog-heading {
-
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
