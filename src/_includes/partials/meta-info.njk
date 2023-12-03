@@ -1,8 +1,8 @@
 {% set pageTitle = title + ' - ' + site.name %}
 
 {# We don't want any duplication. This is likely for the home page. #}
-{% if site.name === title %} 
-  {% set pageTitle = title %}
+{% if site.name === title %}
+{% set pageTitle = title %}
 {% endif %}
 
 {% set siteTitle = site.name %}
@@ -10,11 +10,11 @@
 
 {# If the page’s front matter has specific metaTitle and/or metaDesc items, switch them into the mix. #}
 {% if metaTitle %}
-  {% set pageTitle = metaTitle %}
+{% set pageTitle = metaTitle %}
 {% endif %}
 
 {% if not metaDesc %}
-  {% set metaDesc = summary %}
+{% set metaDesc = summary %}
 {% endif %}
 
 <!-- Primary Meta Tags -->
@@ -33,24 +33,24 @@
 <meta property="og:image" content="https://www.adelheid.org/assets/images/icons/favicons/favicon.png" />
 
 {% if socialImage %}
-  <!-- Twitter -->
-  <meta property="twitter:url" content="{{ currentUrl }}" />
-  <meta property="twitter:title" content="{{ pageTitle }}" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="{{ socialImage }}" />
-  <meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
+<!-- Twitter -->
+<meta property="twitter:url" content="{{ currentUrl }}" />
+<meta property="twitter:title" content="{{ pageTitle }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="{{ socialImage }}" />
+<meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:image" content="{{ socialImage }}" />
-  <meta property="og:image:alt" content="Page image for {{ site.name }}" />
+<!-- Open Graph / Facebook -->
+<meta property="og:image" content="{{ socialImage }}" />
+<meta property="og:image:alt" content="Page image for {{ site.name }}" />
 {% endif %}
 
 {% if metaDesc %}
-  <meta name="description" content="{{ metaDesc }}" />
+<meta name="description" content="{{ metaDesc }}" />
 
-  <!-- Twitter -->
-  <meta name="twitter:description" content="{{ metaDesc }}" />
+<!-- Twitter -->
+<meta name="twitter:description" content="{{ metaDesc }}" />
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:description" content="{{ metaDesc }}" />
+<!-- Open Graph / Facebook -->
+<meta property="og:description" content="{{ metaDesc }}" />
 {% endif %}

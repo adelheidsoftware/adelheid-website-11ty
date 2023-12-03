@@ -4,10 +4,10 @@
 {% block content %}
 
 <div class="[ page-content ] [ flow wrapper ] [ flow-space-700 gap-top-700 ]">
-    {{ content | safe }}
+	{{ content | safe }}
 </div>
 
-{% set ctaContent = cta %} 
+{% set ctaContent = cta %}
 {% include "partials/cta.njk" %}
 
 {% endblock %}

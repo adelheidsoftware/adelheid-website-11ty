@@ -15,41 +15,41 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 module.exports = config => {
 
-  // Plugins
-  config.addPlugin(rssPlugin);
+	// Plugins
+	config.addPlugin(rssPlugin);
 
-  // Add filters
-  config.addFilter('dateFilter', dateFilter);
-  config.addFilter('timeFilter', timeFilter);
-  config.addFilter('w3DateFilter', w3DateFilter);
-  config.addFilter('dateTimeFilter', dateTimeFilter);
+	// Add filters
+	config.addFilter('dateFilter', dateFilter);
+	config.addFilter('timeFilter', timeFilter);
+	config.addFilter('w3DateFilter', w3DateFilter);
+	config.addFilter('dateTimeFilter', dateTimeFilter);
 
-  // add generalized `date` filter
-  config.addFilter('date', function (date, dateFormat) {
-    return format(date, dateFormat)
-  })
+	// add generalized `date` filter
+	config.addFilter('date', function (date, dateFormat) {
+		return format(date, dateFormat)
+	})
 
-  // Minify HTML
-  config.addTransform('htmlmin', htmlMinTransform);
+	// Minify HTML
+	config.addTransform('htmlmin', htmlMinTransform);
 
-  // Pass through image assets to build directory
-  // config.addPassthroughCopy('./src/assets/images/'); // Don't need this because of gulp and HTML minifier?
+	// Pass through image assets to build directory
+	// config.addPassthroughCopy('./src/assets/images/'); // Don't need this because of gulp and HTML minifier?
 
-  // Returns a collection of blog posts in reverse order (newest first)
-  config.addCollection('blog', collection => {
-    return [...collection.getFilteredByGlob('./src/blog/posts/*.md')].reverse();
-  });
+	// Returns a collection of blog posts in reverse order (newest first)
+	config.addCollection('blog', collection => {
+		return [...collection.getFilteredByGlob('./src/blog/posts/*.md')].reverse();
+	});
 
-  // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
-  config.setUseGitIgnore(false);
-	
-  return {
-    markdownTemplateEngine: 'njk',
-    dataTemplateEngine: 'njk',
-    htmlTemplateEngine: 'njk',
-    dir: {
-      input: 'src',
-      output: 'build'
-    }
-  };
+	// Tell 11ty to use the .eleventyignore and ignore our .gitignore file
+	config.setUseGitIgnore(false);
+
+	return {
+		markdownTemplateEngine: 'njk',
+		dataTemplateEngine: 'njk',
+		htmlTemplateEngine: 'njk',
+		dir: {
+			input: 'src',
+			output: 'build'
+		}
+	};
 };

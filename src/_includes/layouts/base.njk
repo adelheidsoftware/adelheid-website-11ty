@@ -4,50 +4,56 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" /> <!-- Render as Edge, I think not necessary -->
-    {% include "partials/meta-info.njk" %}
-    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
 
-    <style>{% include "css/critical.css" %}</style>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" /> <!-- Render as Edge, I think not necessary -->
+	{% include "partials/meta-info.njk" %}
+	<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
 
-    {# Add facility for pages to declare an array of critical styles #}
-    {% if pageCriticalStyles %}
-      {% for item in pageCriticalStyles %}
-        <style>{% include item %}</style>
-      {% endfor %}
-    {% endif %}
+	<style>
+		{% include "css/critical.css" %}
+	</style>
 
-    <link rel="stylesheet" href="/fonts/fonts.css?{{ assetHash }}">
+	{# Add facility for pages to declare an array of critical styles #}
+	{% if pageCriticalStyles %}
+	{% for item in pageCriticalStyles %}
+	<style>
+		{% include item %}
+	</style>
+	{% endfor %}
+	{% endif %}
 
-    {# Add facility for pages to declare an array of stylesheet paths #}
-    {% if pageStylesheets %}
-      {% for item in pageStylesheets %}
-        <link rel="stylesheet" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'" />
-      {% endfor %}
-    {% endif %}
-    
-    <script>
-      {% include "scripts/theme-handler.js" %}
-    </script>
-  </head>
-  <body>
-    <div class="site-wrap">
-      {% include "partials/site-header.njk" %}
-    
-      <main tabindex="-1" id="main-content">
-        {% block content %}{% endblock %}
-      </main>
-    
-      {% include "partials/site-footer.njk" %}
-    </div>
+	<link rel="stylesheet" href="/fonts/fonts.css?{{ assetHash }}">
 
-    <!-- Cloudflare Web Analytics -->
-    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f8c4262f7ac0455aae1a4eae6835d242"}'></script>
-    <!-- End Cloudflare Web Analytics -->
+	{# Add facility for pages to declare an array of stylesheet paths #}
+	{% if pageStylesheets %}
+	{% for item in pageStylesheets %}
+	<link rel="stylesheet" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'" />
+	{% endfor %}
+	{% endif %}
 
-  </body>
+	<script>
+		{% include "scripts/theme-handler.js" %}
+	</script>
+</head>
+
+<body>
+	<div class="site-wrap">
+		{% include "partials/site-header.njk" %}
+
+		<main tabindex="-1" id="main-content">
+			{% block content %}{% endblock %}
+		</main>
+
+		{% include "partials/site-footer.njk" %}
+	</div>
+
+	<!-- Cloudflare Web Analytics -->
+	<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f8c4262f7ac0455aae1a4eae6835d242"}'></script>
+	<!-- End Cloudflare Web Analytics -->
+
+</body>
 
 </html>
