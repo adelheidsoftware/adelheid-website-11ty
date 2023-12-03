@@ -1,0 +1,53 @@
+<div class="blog-page-header">
+	<div class="[ wrapper ] [ flow ]">
+		<div class="blog-back-button">
+
+		</div>
+
+		<div class="blog-heading">
+			<h1 class="blog-title headline">
+				{{ title }}
+			</h1>
+			{% if subtitle %}
+			<p class="blog-subtitle">
+				{{ subtitle }}
+			</p>
+			{% endif %}
+		</div>
+
+		<div class="blog-info">
+			<div class="blog-author">
+				<div class="blog-author-name">
+					<b>{{ author }}</b>
+				</div>
+				{% if authorTitle%}
+				<div class="blog-author-title">
+					<p>{{authorTitle}}</p>
+				</div>
+				{% endif %}
+			</div>
+
+			<div class="blog-date">
+				<time post-date="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
+				<!-- TODO: Fix W3C Validator issues with this tag -->
+				<time post-time="{{ date | w3DateFilter }}">{{ date | timeFilter }}</time>
+			</div>
+		</div>
+
+		<div class="blog-tags">
+			{% if tags %}
+			<p class="visually-hidden" id="tags-desc">Tags</p>
+			<ul class="tags-list" aria-describedby="tags-desc">
+				{% for tag in tags %}
+				<li>
+					<div class="chip">
+						<a class="chip-button" href="/tag/{{ tag | slug }}/">#{{ tag | title | replace(' ', '') }}</a>
+					</div>
+				</li>
+				{% endfor %}
+			</ul>
+			{% endif %}
+		</div>
+
+	</div>
+</div>

@@ -7,27 +7,15 @@ $generate-utility-classes: false;
 // Next: pull in Gorko for design tokens
 @import '../../node_modules/gorko/gorko.scss';
 
-// Generic styles
-time[post-date] {
-  display: block;
-  font-size: get-size('500');
-  line-height: 1.5
-}
-
-time[post-time] {
-  display: block;
-  font-size: get-size('400');
-  line-height: 1
-}
-
 p.draft-label {
-  font-style: italic;
-  font-size: get-size('700');
-  color: gray;
-  line-height: 2;
+	font-style: italic;
+	font-size: get-size('700');
+	color: gray;
+	line-height: 2;
 }
 
 // Pull in blocks
 @import 'blocks/post-list';
 @import 'blocks/pagination';
 @import 'blocks/blog-page-content';
+@import 'blocks/blog-page-header';

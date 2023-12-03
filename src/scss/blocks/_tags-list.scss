@@ -1,15 +1,11 @@
 .tags-list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
 
-  &[class] {
-    margin-inline-start: -#{get-size('300')};
-    font-size: get-size('400');
-  }
+	@include apply-utility('measure', 'extra-long');
 
-  > * {
-    padding-top: get-size('300');
-    padding-inline-start: get-size('300');
-  }
+	&[class] {
+		font-size: get-size('400');
+	}
 }

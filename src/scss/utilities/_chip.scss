@@ -1,0 +1,41 @@
+.chip {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	text-align: start;
+	line-height: 20px;
+	font-size: 14px;
+	font-weight: 500;
+	//padding: 8px 16px;
+
+	margin-right: 0.5em;
+	margin-top: 0.5em;
+
+	background-color: var(--color-surface);
+	color: var(--color-on-surface);
+	border: 1px solid var(--color-outline);
+	border-radius: 8px;
+	height: 32px;
+}
+
+.chip-button {
+	display: inline-block;
+	text-align: center;
+	padding: 6px 16px;
+	height: 32px;
+	border-radius: 8px;
+}
+
+.chip:hover {
+	cursor: pointer;
+	background-color: var(--color-surface-variant);
+	color: var(--color-primary);
+	text-decoration: none;
+
+	a {
+		color: var(--color-tertiary);
+		text-decoration: none;
+	}
+}

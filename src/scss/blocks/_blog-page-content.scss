@@ -1,103 +1,119 @@
 .blog-page-content {
-    @include apply-utility('leading', 'loose');
-  
-    > * {
-      @include apply-utility('measure', 'extra-long');
-    }
+	@include apply-utility('leading', 'loose');
 
-    padding-bottom: 2rem;
+	>* {
+		@include apply-utility('measure', 'extra-long');
+	}
 
-    p, body, blockquote, ul, ol, dl, table, pre, details {
-      margin-top: 0 !important;
-      margin-bottom: 16px !important;
-      font-size: initial !important;
-    }
-  
-    blockquote {
-      border-left: 0.25em solid var(--color-primary);
-      padding: 0 1em !important;
-      color: var(--color-secondary);
-    }
+	padding-bottom: 2rem;
 
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 24px !important;
-      margin-bottom: 16px !important;
-      line-height: 1.25 !important;
-    }
+	p,
+	body,
+	blockquote,
+	ul,
+	ol,
+	dl,
+	table,
+	pre,
+	details {
+		margin-top: 0 !important;
+		margin-bottom: 16px !important;
+		font-size: initial !important;
+	}
 
-    h1 {
-      font-size: 2em !important;
-      padding-bottom: 0.3em !important;
-    }
+	blockquote {
+		border-left: 0.25em solid var(--color-primary);
+		padding: 0 1em !important;
+		color: var(--color-secondary);
+	}
 
-    h2 {
-      font-size: 1.5em !important;
-      padding-bottom: 0.3em !important;
-    }
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin-top: 24px !important;
+		margin-bottom: 16px !important;
+		line-height: 1.25 !important;
+	}
 
-    h3 {
-      font-size: 1.25em !important;
-    }
+	h1 {
+		font-size: 2em !important;
+		padding-bottom: 0.3em !important;
+	}
 
-    h4 {
-      font-size: 1em !important;
-    }
+	h2 {
+		font-size: 1.5em !important;
+		padding-bottom: 0.3em !important;
+	}
 
-    h5 {
-      font-size: 0.875em !important;
-    }
+	h3 {
+		font-size: 1.25em !important;
+	}
 
-    h6 {
-      font-size: 0.85em !important;
-    }
+	h4 {
+		font-size: 1em !important;
+	}
 
-    p {
-      margin-top: 0 !important;
-    }
+	h5 {
+		font-size: 0.875em !important;
+	}
 
-    pre {
-      overflow: auto;
-      font-size: 95%;
-      line-height: 1.45 !important;
-      border-radius: 6px;
-      background-color: var(--color-surface-variant);
-      word-wrap: normal;
-      font-family: monospace;
-      padding: 8px 16px !important;
-      code { // Kinda hacky but whatever, cuz apparently the Markdown is parsed into a pre+code block for multiline codeblocks.
-        padding: 0 !important;
-        background-color: var(--color-surface-variant);
-      }
-    }
+	h6 {
+		font-size: 0.85em !important;
+	}
 
-    code {
-      padding: 0.2em 0.4em !important;
-      margin: 0 !important;
-      font-size: 95%;
-      white-space: break-spaces;
-      background-color: var(--color-surface-variant);
-      border-radius: 6px;
-      font-family: monospace;
-    }
+	p {
+		margin-top: 0 !important;
+	}
 
-    ul, ol {
-      padding-left: 2em !important;
-    }
-  
-    li + li {
-      margin-top: get-size('300');
-    }
-  
-    // Add a greater flow space for heading elements so
-    // they appear more like article sections
-    h2,
-    h3 {
-      --flow-space: #{get-size('800')};
-    }
-  
-    // Add tighter flow for elements that follow a heading
-    h2 + *,
-    h3 + * {
-      --flow-space: #{get-size('300')};
-    }
-  }  
+	pre {
+		overflow: auto;
+		font-size: 95%;
+		line-height: 1.45 !important;
+		border-radius: 6px;
+		background-color: var(--color-surface-variant);
+		word-wrap: normal;
+		font-family: monospace;
+		padding: 8px 16px !important;
+
+		code {
+			// Kinda hacky but whatever, cuz apparently the Markdown is parsed into a pre+code block for multiline codeblocks.
+			padding: 0 !important;
+			background-color: var(--color-surface-variant);
+		}
+	}
+
+	code {
+		padding: 0.2em 0.4em !important;
+		margin: 0 !important;
+		font-size: 95%;
+		white-space: break-spaces;
+		background-color: var(--color-surface-variant);
+		border-radius: 6px;
+		font-family: monospace;
+	}
+
+	ul,
+	ol {
+		padding-left: 2em !important;
+	}
+
+	li+li {
+		margin-top: get-size('300');
+	}
+
+	// Add a greater flow space for heading elements so
+	// they appear more like article sections
+	h2,
+	h3 {
+		--flow-space: #{get-size('800')};
+	}
+
+	// Add tighter flow for elements that follow a heading
+	h2+*,
+	h3+* {
+		--flow-space: #{get-size('300')};
+	}
+}

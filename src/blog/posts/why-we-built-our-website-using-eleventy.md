@@ -2,6 +2,7 @@
 title: 'Why We Built Our Website Using Eleventy'
 date: '2023-11-25T15:30:00'
 author: 'Aaron Yoder'
+authorTitle: 'Founder'
 tags: ['Meta']
 ---
 
