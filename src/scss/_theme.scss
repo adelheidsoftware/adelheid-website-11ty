@@ -77,14 +77,35 @@
 @mixin light-theme {
     @include light-theme-base;
 
-    .theme-toggle .sun {
-        display: none;
-    }
+	.theme-symbol {
+		.dark-mode-symbol {
+			display: inline-block;
+			color: var(--color-on-surface-variant);
+		}
 
-    .theme-toggle .moon {
-        display: inline-block;
-        color: var(--color-on-background);
-    }
+		.dark-mode-symbol-hovered {
+			display: none;
+		}
+
+		.light-mode-symbol {
+			display: none;
+		}
+
+		.light-mode-symbol-hovered {
+			display: none;
+		}
+	}
+
+	.theme-toggle:hover {
+		.dark-mode-symbol {
+			display: none;
+		}
+
+		.dark-mode-symbol-hovered {
+			display: inline-block;
+			color: var(--color-on-surface-variant);
+		}
+	}
 
     .inverse-theme {
         @include dark-theme-base;
@@ -94,22 +115,43 @@
 @mixin dark-theme {
     @include dark-theme-base;
 
-    .theme-toggle .moon {
-        display: none;
-    }
+	.theme-symbol {
+		.dark-mode-symbol {
+			display: none;
+		}
 
-    .theme-toggle .sun {
-        display: inline-block;
-        color: var(--color-on-background);
-    }
+		.dark-mode-symbol-hovered {
+			display: none;
+		}
+
+		.light-mode-symbol {
+			display: inline-block;
+			color: var(--color-on-surface-variant);
+		}
+
+		.light-mode-symbol-hovered {
+			display: none;
+		}
+	}
+
+	.theme-toggle:hover {
+		.light-mode-symbol {
+			display: none;
+		}
+
+		.light-mode-symbol-hovered {
+			display: inline-block;
+			color: var(--color-on-surface-variant);
+		}
+	}
 
     .inverse-theme {
         @include light-theme-base;
     }
 }
 
-:root { // Light Theme as the default
-    @include light-theme;
+:root { // Base Light Theme as the default
+    @include light-theme-base;
 }
 
 html[data-theme='light'] {

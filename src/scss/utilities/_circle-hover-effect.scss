@@ -1,8 +1,5 @@
 .circle-hover-effect {
-    display: inline-block; // Don't take the whole line
     transition: background-color 0.25s;
-    height: 2em;
-    width: 2em;
     padding: 0.25em; // Space between the icon and the background edge
     border-radius: 50%; // Make it rounded
 }
@@ -12,6 +9,6 @@
     cursor: pointer;
 
     * { // Selects all child elements
-        color: var(--color-primary);
+        //color: var(--color-primary);
     }
 }
