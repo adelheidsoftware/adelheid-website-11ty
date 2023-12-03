@@ -1,6 +1,8 @@
 .cta {
     background-color: var(--color-surface-variant);
     color: var(--color-on-surface-variant);
+
+	transition: all 0.5s;
   
     @include media-query('md') {
       &__inner {

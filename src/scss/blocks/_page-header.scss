@@ -3,4 +3,6 @@
 	background-color: var(--color-surface);
 	color: var(--color-on-surface);
 	font-size: get-size('500');
+
+	transition: all 0.5s;
 }
