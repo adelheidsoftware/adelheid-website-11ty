@@ -34,6 +34,10 @@
 	{% endfor %}
 	{% endif %}
 
+	{# Add our Web Components #}
+	{% include "components/chip/_chip-basic.njk" %}
+
+	{# Add theme handler script #}
 	<script>
 		{% include "scripts/theme-handler.js" %}
 	</script>
