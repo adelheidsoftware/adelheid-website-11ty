@@ -42,7 +42,7 @@
 			<ul class="tags-list" aria-describedby="tags-desc">
 				{% for tag in tags %}
 				<li>
-					<chip-basic data-label="#{{ tag | title | replace(' ', '') }}" data-href="/tag/{{ tag | slug }}/"></chip-basic>
+					<chip-basic data-label="#{{ tag | title }}" data-href="/tag/{{ tag | slug }}/"></chip-basic>
 				</li>
 				{% endfor %}
 			</ul>
