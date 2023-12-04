@@ -3,7 +3,7 @@ title: 'Why We Built Our Website Using Eleventy'
 date: '2023-11-25T15:30:00'
 author: 'Aaron Yoder'
 authorTitle: 'Founder & CEO'
-tags: ['Meta']
+tags: ['Meta','Web']
 ---
 
 I am not a web developer; I usually stick to desktop, mobile, and backend development. When I started out on this journey to build a website, I had little idea of how to write HTML and CSS, and I had minimal experience working with JavaScript. I looked at quite a few web frameworks and tools in an effort to build a website, but most were too large, confusing to use, and did not give me enough control. Eventually, I discovered exactly what I had been looking for.
