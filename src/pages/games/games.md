@@ -1,6 +1,7 @@
 ---
 title: 'Games'
 layout: 'layouts/games.njk'
+permalink: '/games/index.html'
 ---
 
 # Games

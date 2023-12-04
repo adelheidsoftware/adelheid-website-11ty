@@ -1,6 +1,7 @@
 ---
 title: 'Software'
 layout: 'layouts/software.njk'
+permalink: '/software/index.html'
 ---
 
 # Software
