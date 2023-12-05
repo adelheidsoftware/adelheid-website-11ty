@@ -1,4 +1,10 @@
+@mixin common-base {
+	--default-corner-radius: 24px;
+}
+
 @mixin light-theme-base {
+	@include common-base;
+
     // Primary
     --color-primary: #96490a;
     --color-on-primary: #ffffff;
@@ -35,6 +41,8 @@
 }
 
 @mixin dark-theme-base {
+	@include common-base;
+	
     // Primary
     --color-primary: #ffb68a;
     --color-on-primary: #522300;

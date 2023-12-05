@@ -8,90 +8,167 @@
 @import 'reset';
 
 // Global styles start
-  :root {
-    --flow-space: #{get-size('600')};
+:root {
+	--flow-space: #{get-size('600')};
 
-    --page-max-width: 70rem;
-    --num-grid-columns: 4;
-    --page-gutter:1.33rem;
-  }
+	--page-max-width: 70rem;
+	--num-grid-columns: 4;
+	--page-gutter: 1.33rem;
+}
 
-  @media screen and (min-width: 768px) {
-    :root {
-      --num-grid-columns: 8;
-    }
-  }
+@media screen and (min-width: 768px) {
+	:root {
+		--num-grid-columns: 8;
+	}
+}
 
-  @media screen and (min-width: 1024px) {
-    :root {
-      --num-grid-columns: 12;
-    }
-  }
+@media screen and (min-width: 1024px) {
+	:root {
+		--num-grid-columns: 12;
+	}
+}
 
-  body {
-    background: var(--color-background);
-    color: var(--color-on-background); // Text color
+body {
+	background: var(--color-background);
+	color: var(--color-on-background); // Text color
 
 	transition: all 0.5s;
-  
-    @include apply-utility('font', 'base');
-  }
-  
-  a:not([class]) {
-    color: currentColor;
-    text-decoration-color: var(--color-secondary);
-  }
 
-  // Style links
-  a:link {
-    color: var(--color-primary);
-    text-decoration: none;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: var(--color-primary); // Visited links won't look different
-    text-decoration: none;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: var(--color-tertiary);
-    text-decoration: underline;
-  }
-  
-  /* selected link */
-  a:active {
-    color: var(--color-secondary);
-    text-decoration: underline;
-  }
-  
-  main:focus {
-    outline: none;
-  }
-  
-  // High contrast selection because it can help visually-impaired
-  // folks read the text easier
-  ::selection {
-    color: var(--color-background); // Text color
-    background: var(--color-on-background);
-  }
-  
-  // Scrollbar styles
-  ::-webkit-scrollbar {
-    height: 1rem;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background-color: var(--color-surface);
-    border: 1px solid var(--color-outline);
-    border-radius: 0.25rem;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: var(--color-on-surface);
-    border-radius: 0.25rem;
-  }
+	@include apply-utility('font', 'base');
+}
+
+a:not([class]) {
+	color: currentColor;
+	text-decoration-color: var(--color-secondary);
+}
+
+// Style links
+a:link {
+	color: var(--color-primary);
+	text-decoration: none;
+
+	//transition: all 0.5s;
+}
+
+/* visited link */
+a:visited {
+	color: var(--color-primary); // Visited links won't look different
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	color: var(--color-tertiary);
+	text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+	color: var(--color-secondary);
+	text-decoration: underline;
+}
+
+main:focus {
+	outline: none;
+}
+
+// High contrast selection because it can help visually-impaired
+// folks read the text easier
+::selection {
+	color: var(--color-background); // Text color
+	background: var(--color-on-background);
+}
+
+// Scrollbar styles
+::-webkit-scrollbar {
+	height: 1rem;
+}
+
+::-webkit-scrollbar-track {
+	background-color: var(--color-surface);
+	border: 1px solid var(--color-outline);
+	border-radius: 0.25rem;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--color-on-surface);
+	border-radius: 0.25rem;
+}
+
+// Temporary until I find somewhere better to put it
+
+.approve { // For ul
+	padding-inline-start: 0 !important;
+	margin-top: 16px !important;
+
+	li {
+		font-size: 16px;
+		color: var(--color-on-surface-variant);
+	}
+
+	::before {
+		display: inline-block;
+		vertical-align: middle;
+		padding-right: 8px;
+		content: url("../assets/images/icons/check.svg");
+	}
+}
+
+.disapprove { // For ul
+	padding-inline-start: 0 !important;
+	margin-top: 16px !important;
+
+	li {
+		font-size: 16px;
+		color: var(--color-on-surface-variant);
+	}
+
+	::before {
+		display: inline-block;
+		vertical-align: middle;
+		padding-right: 8px;
+		content: url("../assets/images/icons/cross.svg");
+	}
+}
+
+.grid-2col {
+	grid-auto-columns: 1fr;
+	display: grid;
+	grid-column-gap: 24px;
+	grid-row-gap: 24px;
+	grid-template-rows: auto;
+	grid-template-columns: 1fr 1fr;
+}
+
+.brand-image-container {
+	
+}
+
+@mixin transparent-image-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	padding-left: 16px;
+	padding-right: 16px;
+
+	background-position: 0%;
+	background-size: 32px;
+
+	min-height: 128px;
+	border: 2px solid var(--color-outline);
+	border-radius: 8px;
+}
+
+.transparent-image-container-light {
+	@include transparent-image-container;
+	background-image: url("../assets/images/utilities/transparent-bg-light.png");
+}
+
+.transparent-image-container-dark {
+	@include transparent-image-container;
+	background-image: url("../assets/images/utilities/transparent-bg-dark.png");
+}
 
 // Import blocks
 @import 'blocks/definition-group';
@@ -110,6 +187,7 @@
 @import 'utilities/frame';
 @import 'utilities/panel';
 @import 'utilities/radius';
+@import 'utilities/rounded';
 @import 'utilities/site-wrap';
 @import 'utilities/visually-hidden';
 @import 'utilities/wrapper';
