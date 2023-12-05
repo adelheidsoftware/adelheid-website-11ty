@@ -40,7 +40,7 @@ sitemapChangefreq: weekly
 
 # Typeface
 
-We use the **[Nunito](https://fonts.google.com/specimen/Nunito)** typeface for our logo.\
+We use the **[Nunito](https://fonts.google.com/specimen/Nunito)** typeface for our logo/wordmark.\
 For our website text and headings, we are currently using **[Noto Sans](https://fonts.google.com/noto)**.
 
 In the full logo, we use **Nunito SemiBold** at a font size of **96 points**.\
