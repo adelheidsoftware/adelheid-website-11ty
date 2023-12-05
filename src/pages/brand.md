@@ -78,7 +78,7 @@ We use a corner radius of 24 pixels for our logos.
 ## Logo
 Please do not edit, change, distort, recolor, or reconfigure the Adelheid Software logo.
 
-There are two versions of the logo and a mark. The logo has a full version, and a 75% center crop-in version. Each one has different use-cases. All of these can contain a wordmark below the logo or mark. The wordmark should never be used on its own.
+There are two versions of the logo, and there is also a mark. The logo has a full-size version, and a 75% center crop-in version. Each one has different use-cases. All versions of the logo and the mark can contain a wordmark below, but it is not always required. The wordmark should never be used on its own.
 
 ### Full Logo
 If you use the full logo, the logo **with the wordmark** is nearly always preferred. When in doubt, **include** the wordmark for this logo.
