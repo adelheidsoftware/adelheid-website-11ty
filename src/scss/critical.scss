@@ -95,7 +95,7 @@ main:focus {
 	border-radius: 0.25rem;
 }
 
-// Temporary until I find somewhere better to put it
+// TODO: Temporary until I find somewhere better to put it
 
 .approve { // For ul
 	padding-inline-start: 0 !important;
@@ -140,10 +140,6 @@ main:focus {
 	grid-template-columns: 1fr 1fr;
 }
 
-.brand-image-container {
-	
-}
-
 @mixin transparent-image-container {
 	display: flex;
 	justify-content: center;
@@ -168,6 +164,38 @@ main:focus {
 .transparent-image-container-dark {
 	@include transparent-image-container;
 	background-image: url("../assets/images/utilities/transparent-bg-dark.png");
+}
+
+.brand-color-grid {
+	display: grid;
+	grid-column-gap: 24px;
+	grid-row-gap: 24px;
+	grid-template-rows: auto;
+	grid-template-columns: 1fr 1fr;
+}
+
+.brand-color-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 224px;
+	max-width: 384px !important;
+	max-height: 224px !important;
+	padding: 20px;
+
+	background-color: var(--brand-color-card-hex);
+	color: var(--brand-color-card-text-color);
+	text-align: left;
+	font-weight: 400;
+	line-height: 150%;
+	border: 2px solid var(--color-outline);
+}
+
+.brand-color-text-block {
+	color: var(--brand-color-card-text-color);
+	font-size: 20px;
+	line-height: 28px;
 }
 
 // Import blocks

@@ -52,6 +52,69 @@ The logo should be centered in the image at all times.
 
 We use a corner radius of 24 pixels for our logos.
 
+# Colors
+
+<div class="brand-color-grid">
+
+<div class="brand-color-card rounded" style="--brand-color-card-hex: #BD8A6B; --brand-color-card-text-color: #FFFBFF;">
+	<h3>Brand</h3>
+	<div class="brand-color-text-block">
+		<p>#BD8A6B</p>
+		<p>CMYK 0, 20, 32, 26</p>
+	</div>
+</div>
+
+<div class="brand-color-card rounded" style="--brand-color-card-hex: #FFFBFF; --brand-color-card-text-color: #201A17;">
+	<h3>White</h3>
+	<div class="brand-color-text-block">
+		<p>#FFFBFF</p>
+		<p>CMYK 0, 2, 0, 0</p>
+	</div>
+</div>
+
+<div class="brand-color-card rounded" style="--brand-color-card-hex: #201A17; --brand-color-card-text-color: #FFFBFF;">
+	<h3>Black</h3>
+	<div class="brand-color-text-block">
+		<p>#201A17</p>
+		<p>CMYK 0, 2, 4, 87</p>
+	</div>
+</div>
+
+<div class="brand-color-card rounded" style="--brand-color-card-hex: #96490A; --brand-color-card-text-color: #FFFBFF;">
+	<h3>Primary (Light)</h3>
+	<div class="brand-color-text-block">
+		<p>#96490A</p>
+		<p>CMYK 0, 30, 55, 41</p>
+	</div>
+</div>
+
+<div class="brand-color-card rounded" style="--brand-color-card-hex: #FFB68A; --brand-color-card-text-color: #201A17;">
+	<h3>Primary (Dark)</h3>
+	<div class="brand-color-text-block">
+		<p>#FFB68A</p>
+		<p>CMYK 0, 29, 46, 0</p>
+	</div>
+</div>
+
+
+<div class="brand-color-card rounded" style="--brand-color-card-hex: #B02B33; --brand-color-card-text-color: #FFFBFF;">
+	<h3>Accent (Light)</h3>
+	<div class="brand-color-text-block">
+		<p>#B02B33</p>
+		<p>CMYK 0, 52, 49, 31</p>
+	</div>
+</div>
+
+<div class="brand-color-card rounded" style="--brand-color-card-hex: #F5BE48; --brand-color-card-text-color: #201A17;">
+	<h3>Accent (Dark)</h3>
+	<div class="brand-color-text-block">
+		<p>#F5BE48</p>
+		<p>CMYK 0, 22, 68, 4</p>
+	</div>
+</div>
+
+</div>
+
 # Guidelines
 
 <div class="grid-2col">
