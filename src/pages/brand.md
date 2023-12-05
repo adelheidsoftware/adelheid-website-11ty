@@ -52,9 +52,6 @@ The logo should be centered in the image at all times.
 
 We use a corner radius of 24 pixels for our logos.
 
-
-# Colors
-
 # Guidelines
 
 <div class="grid-2col">
