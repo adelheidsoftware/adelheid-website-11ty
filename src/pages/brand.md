@@ -9,25 +9,14 @@ sitemapChangefreq: weekly
 
 # Permitted Logos
 
-## Full
+## Logo
 
 <div class="grid-2col">
 	<figure style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-		<img class="rounded brand-image-container" src="/assets/images/brand/full-256.png" alt="Full Logo" />
+		<img class="rounded brand-image-container" src="/assets/images/brand/logo-256.png" alt="Adelheid Software Logo" />
 	</figure>
 	<figure style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-		<img class="rounded brand-image-container" src="/assets/images/brand/full-w-text-256.png" alt="Full Logo with Wordmark" />
-	</figure>
-</div>
-
-## Cropped-in
-
-<div class="grid-2col">
-	<figure style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-		<img class="rounded brand-image-container" src="/assets/images/brand/crop-75p-256.png" alt="75% Cropped-in Logo" />
-	</figure>
-	<figure style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-		<img class="rounded brand-image-container" src="/assets/images/brand/crop-w-text-75p-256.png" alt="75% Cropped-in Logo with Wordmark" />
+		<img class="rounded brand-image-container" src="/assets/images/brand/logo-wordmark-256.png" alt="Adelheid Software Logo with Wordmark" />
 	</figure>
 </div>
 
@@ -38,17 +27,32 @@ sitemapChangefreq: weekly
 	<div class="transparent-image-container-light"><img src="/assets/images/brand/mark-dark-256.png" alt="Mark (Dark)"></img></div>
 </div>
 
+## Mark with Wordmark
+
+<div class="grid-2col">
+	<div class="transparent-image-container-dark"><img src="/assets/images/brand/mark-wordmark-light-256.png" alt="Mark (Light)"></img></div>
+	<div class="transparent-image-container-light"><img src="/assets/images/brand/mark-wordmark-dark-256.png" alt="Mark (Dark)"></img></div>
+</div>
+
+## Banner
+
+<div class="brand-banner-container">
+	<figure style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+		<img class="rounded brand-image-container" src="/assets/images/brand/banner-320-132.png" alt="Adelheid Software Banner" />
+	</figure>
+</div>
+
 # Typeface
 
 We use the **[Nunito](https://fonts.google.com/specimen/Nunito)** typeface for our logo/wordmark.\
 For our website text and headings, we are currently using **[Noto Sans](https://fonts.google.com/noto)**.
 
-In the full logo, we use **Nunito SemiBold** at a font size of **96 points**.\
-In the cropped-in logo, we use **Nunito SemiBold** at a font size of **72 points**.
+For the logo & mark, we use **Nunito SemiBold** at a font size of **96 points**.\
+For the banner, we use **Nunito SemiBold** at a font size of **144 points**.
 
 # Spacing & Corner Radius
 
-The logo should be centered in the image at all times.
+The logo, or logo with wordmark together, should be centered in the image.
 
 We use a corner radius of 24 pixels for our logos.
 
@@ -139,38 +143,23 @@ We use a corner radius of 24 pixels for our logos.
 </div>
 
 ## Logo
-Please do not edit, change, distort, recolor, or reconfigure the Adelheid Software logo.
 
-There are two versions of the logo, and there is also a mark. The logo has a full-size version, and a 75% center crop-in version. Each one has different use-cases. All versions of the logo and the mark can contain a wordmark below, but it is not always required. The wordmark should never be used on its own.
+You should use the logo when it is the main element in your design. If the design requires a longer width than height, then opt for the banner instead.
 
-### Full Logo
-If you use the full logo, the logo **with the wordmark** is nearly always preferred. When in doubt, **include** the wordmark for this logo.
+**Wordmark**: In most cases, the wordmark should be included in the logo. The logo should only exclude the wordmark if the context already establishes the brand and makes clear that you are talking about Adelheid Software.
 
-#### Usage
-The full logo should only be used when it is the main element in your design.
-
-You should only exclude the wordmark from the full logo when the context already establishes the brand and makes clear that this is the Adelheid Software logo.
-
-#### Wordmark Placement
-The wordmark is always placed below the logo, and is never used alone.
-
-The wordmark is centered horizontally between the left and right edges of the brand container, and centered vertically between the bottom of the brand container and the bottom-most portion of the logo.
-
-### Cropped-in Logo
-If you use the cropped-in logo, the logo **without the wordmark** is nearly always preferred. When in doubt, **do not include** the wordmark for this logo.
-
-#### Usage
-The cropped-in logo may be used as a main element, but can also be used in other contexts where it would not make sense to use the full logo.
-
-#### Wordmark Placement
-The wordmark is always placed below the logo, and is never used alone.
-
-The wordmark is centered horizontally between the left and right edges of the brand container, and centered vertically between the bottom of the brand container and the bottom-most portion of the logo.
-
-### Mark
+## Mark
 Use our mark when the brand has already been clearly established on the page or in the design. It is also acceptable to use the mark to link to our website where appropriate.
 
-In some rare contexts, it may be appropriate to use the mark with the wordmark placed below it.
+Please do not place our mark on heavily textured or complex backgrounds.
+
+**Wordmark**: In some rare contexts, it may be appropriate to use the mark with the wordmark placed below it. When using it as a hyperlink, please omit the wordmark.
+
+## Banner
+
+The banner largely serves the same purpose as the Adelheid Software logo, but is used in situations where the logo will not work well, and where a banner makes more sense.
+
+**Wordmark**: The wordmark should never be omitted from the banner.
 
 # Download
 

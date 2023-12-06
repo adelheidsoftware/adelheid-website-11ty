@@ -138,6 +138,11 @@ main:focus {
 	grid-row-gap: 24px;
 	grid-template-rows: auto;
 	grid-template-columns: 1fr 1fr;
+	align-items: start;
+}
+
+.brand-banner-container {
+	display: flex;
 }
 
 @mixin transparent-image-container {
