@@ -5,7 +5,7 @@ permalink: '/about/index.html'
 sitemapChangefreq: weekly
 ---
 
-Adelheid Software is an independent game and software development studio founded in Ohio by Aaron Yoder, effective January 1, 2024.
+{{ site.companyLegalName }} is an independent game and software development studio founded in Ohio by Aaron Yoder, effective January 1, 2024.
 
 ## Our Story
 
