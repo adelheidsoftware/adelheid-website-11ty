@@ -97,6 +97,11 @@ main:focus {
 
 // TODO: Temporary until I find somewhere better to put it
 
+.logo {
+	border-radius: 12%; /* Adjust the value for desired roundness */
+	overflow: hidden; /* This is important to clip the overflowing content */
+}
+
 .approve { // For ul
 	padding-inline-start: 0 !important;
 	margin-top: 16px !important;
