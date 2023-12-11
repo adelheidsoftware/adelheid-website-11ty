@@ -8,8 +8,6 @@ sitemapPriority: 1.0
 sitemapChangefreq: daily
 ---
 
-# Welcome to Adelheid Software!
+# {{ site.name }}
 
-We are an indie studio that develops games and game-related software solutions. We also have a technical blog where we talk about our experiences and share our knowledge and expertise.
-
-Check out the other sections of our website, including our games and software. There's not too much there right now, but we'll expand it over time!
+{{ company.legalName }} is an indie studio that develops games and game-related software solutions. You can check out our games and software via the site navigation. We also have a technical blog where we talk about our experiences and share our knowledge and expertise.

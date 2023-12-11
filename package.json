@@ -1,7 +1,7 @@
 {
   "name": "adelheid-website",
   "version": "1.0.0",
-  "description": "The website for Adelheid Software.",
+  "description": "The website for Adelheid Software Ltd.",
   "main": "index.js",
   "scripts": {
     "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve\"",

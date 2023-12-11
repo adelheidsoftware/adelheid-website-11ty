@@ -10,4 +10,4 @@ paginationNextText: 'Older posts'
 paginationAnchor: '#post-list'
 ---
 
-Welcome to the Adelheid Software blog! You can find all of our blog posts here.
+Welcome to the {{ site.name }} blog! You can find all of our blog posts here.

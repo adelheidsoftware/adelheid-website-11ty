@@ -5,11 +5,11 @@ permalink: '/about/index.html'
 sitemapChangefreq: weekly
 ---
 
-{{ site.companyLegalName }} is an independent game and software development studio founded in Ohio by Aaron Yoder, effective January 1, 2024.
+{{ company.legalName }} is an independent game and software development studio founded in Ohio by Aaron Yoder, effective January 1, 2024.
 
 ## Our Story
 
-**Adelheid Software** started as an idea in 2018, when Aaron was working on [Riskrieg](https://www.riskrieg.com/), a world-domination simulation game designed to be played via Discord. After working on Riskrieg for 3 years and building up a community and a brand, Aaron decided to sit down and work on his dream of creating a game development studio. That idea became Adelheid Software.
+**{{ company.name }}** started as an idea in 2018, when Aaron was working on [Riskrieg](https://www.riskrieg.com/), a world-domination simulation game designed to be played via Discord. After working on Riskrieg for 3 years and building up a community and a brand, Aaron decided to sit down and work on his dream of creating a game development studio. That idea became {{ company.name }}.
 
 ### Our Mission
 
@@ -17,7 +17,7 @@ We believe that games are people-driven and have the power to inspire and connec
 
 ### Our Values
 
-At Adelheid Software, we are guided by the following core values:
+At {{ company.name }}, we are guided by the following core values:
 
 * **Quality**: [A delayed game is eventually good, but a rushed game is forever bad](https://www.ign.com/articles/did-miyamoto-really-say-a-delayed-game-is-eventually-good-but-a-rushed-game-is-forever-bad). We are committed to delivering high-quality games and releasing them when they are ready. We want to respect both our players and our team.
 * **Community**: Our community is everything. We value the feedback and support of our players and are always looking for ways to engage more closely with them.
@@ -25,7 +25,7 @@ At Adelheid Software, we are guided by the following core values:
 
 ## Our Team
 
-Adelheid Software is currently a one-person team, but we are actively seeking a talented artist to join our ranks. If you are someone who shares our passion for creating immersive and meaningful experiences, don't hesitate to get in touch.
+{{ company.name }} is currently a one-person team, but we are actively seeking a talented artist to join our ranks. If you are someone who shares our passion for creating immersive and meaningful experiences, don't hesitate to get in touch.
 
 ### Get Involved
 

@@ -13,10 +13,10 @@ sitemapChangefreq: weekly
 
 <div class="grid-2col">
 	<figure style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-		<img class="rounded brand-image-container" src="/assets/images/brand/logo-256.png" alt="Adelheid Software Logo" />
+		<img class="rounded brand-image-container" src="/assets/images/brand/logo-256.png" alt="{{ company.name }} Logo" />
 	</figure>
 	<figure style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-		<img class="rounded brand-image-container" src="/assets/images/brand/logo-wordmark-256.png" alt="Adelheid Software Logo with Wordmark" />
+		<img class="rounded brand-image-container" src="/assets/images/brand/logo-wordmark-256.png" alt="{{ company.name }} Logo with Wordmark" />
 	</figure>
 </div>
 
@@ -146,7 +146,7 @@ We use a corner radius of 24 pixels for our logos.
 
 You should use the logo when it is the main element in your design. If the design requires a longer width than height, then opt for the banner instead.
 
-**Wordmark**: In most cases, the wordmark should be included in the logo. The logo should only exclude the wordmark if the context already establishes the brand and makes clear that you are talking about Adelheid Software.
+**Wordmark**: In most cases, the wordmark should be included in the logo. The logo should only exclude the wordmark if the context already establishes the brand and makes clear that you are talking about {{ company.name }}.
 
 ## Mark
 Use our mark when the brand has already been clearly established on the page or in the design. It is also acceptable to use the mark to link to our website where appropriate.
@@ -157,7 +157,7 @@ Please do not place our mark on heavily textured or complex backgrounds.
 
 ## Banner
 
-The banner largely serves the same purpose as the Adelheid Software logo, but is used in situations where the logo will not work well, and where a banner makes more sense.
+The banner largely serves the same purpose as the {{ company.name }} logo, but is used in situations where the logo will not work well, and where a banner makes more sense.
 
 **Wordmark**: The wordmark should never be omitted from the banner.
 

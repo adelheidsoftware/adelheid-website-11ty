@@ -7,7 +7,7 @@ sitemapChangefreq: weekly
 
 ### General Inquiries
 
-For general inquiries, please contact us at [{{ site.contactEmail }}](mailto:{{ site.contactEmail }}).
+For general inquiries, please contact us at [{{ company.contactEmail }}](mailto:{{ company.contactEmail }}).
 
 You may also contact us directly via Discord for more informal inquiries.
 
