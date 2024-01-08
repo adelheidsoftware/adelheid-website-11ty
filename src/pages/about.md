@@ -25,7 +25,7 @@ At {{ company.name }}, we are guided by the following core values:
 
 ## Our Team
 
-{{ company.name }} is currently a one-person team, but we are actively seeking a talented artist to join our ranks. If you are someone who shares our passion for creating immersive and meaningful experiences, don't hesitate to get in touch.
+{{ company.name }} is currently a small 3-person team, but we are actively seeking talented individuals to join our ranks. If you are someone who shares our passion for creating immersive and meaningful experiences, don't hesitate to get in touch.
 
 ### Get Involved
 
