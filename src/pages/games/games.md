@@ -32,7 +32,7 @@ Note: We do not own Riskrieg, and Riskrieg is the sole property of Aaron Yoder a
 **Development Status**: Planning\
 **Release Date**: Q3/Q4 2024
 
-**Project Ailuros** is the codename and working title for a 2D pixel art platformer where you play as a cat.
+**Project Ailuros** is the codename and working title for a 2D pixel art platformer where you play as a cat. We are currently working with an independent artist on this title.
 
 ### Project Artemis
 
