@@ -20,7 +20,7 @@ We believe that games are people-driven and have the power to inspire and connec
 At {{ company.name }}, we are guided by the following core values:
 
 * **Quality**: [A delayed game is eventually good, but a rushed game is forever bad](https://www.ign.com/articles/did-miyamoto-really-say-a-delayed-game-is-eventually-good-but-a-rushed-game-is-forever-bad). We are committed to delivering high-quality games and releasing them when they are ready. We want to respect both our players and our team.
-* **Collaboration**: Collaboration both within the company and without our community is everything. We value the feedback and support of our players and are always looking for ways to engage more closely with them.
+* **Collaboration**: Collaboration both within the company and within our community is everything. We highly value the feedback and support of our players and are always looking for ways to engage more closely with them.
 * **Openness**: We believe it is critical to be open and transparent wherever we can be. We also believe in the power of open source software and are committed to giving back to our community.
 
 ## Our Team
