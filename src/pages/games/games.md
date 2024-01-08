@@ -15,6 +15,8 @@ permalink: '/games/index.html'
 
 The idea for the game was first conceived in 2011 as a pen-and-paper proof-of-concept and then quickly forgotten. In 2018, the idea was brought back to life in the form of a [Discord bot](https://github.com/Riskrieg/discord-bot). From 2018 through 2022, Riskrieg was updated on a regular basis with a steadily-growing audience. It was open-sourced on April 1, 2021 under the GNU GPLv3 license. However, since the game was open-source and free-to-use, it was difficult to monetize the game, and thus difficult to justify continual development. In mid-late 2022, Riskrieg development was put on hiatus and left in the hands of the community, and Aaron began working on the creation of {{ company.name }}.
 
+Note: We do not own Riskrieg, and Riskrieg is the sole property of Aaron Yoder and contributors.
+
 
 ### Posthaste!
 
