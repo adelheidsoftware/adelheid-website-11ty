@@ -24,7 +24,7 @@ Note: We do not own Riskrieg, and Riskrieg is the sole property of Aaron Yoder a
 **Development Status**: Active Development\
 **Release Date**: Q2/Q3 2024
 
-**Posthaste!** is an arcade-style mail-sorting game. It will be released on Steam. We are currently working with an independent artist on this title.
+**Posthaste!** is an arcade-style mail-sorting game. It will be released on Steam. We are currently working with an independent artist and an independent sound designer on this title.
 
 ### Project Ailuros
 
