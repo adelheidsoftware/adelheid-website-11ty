@@ -23,6 +23,7 @@ Note: We do not own Riskrieg, and Riskrieg is the sole property of Aaron Yoder a
 **Framework**: [Godot Engine](https://godotengine.org/)\
 **Development Status**: Active Development\
 **Release Date**: Q2/Q3 2024
+**Steam page**: Coming late February / Early March, 2024
 
 **Posthaste!** is an arcade-style mail-sorting game. It will be released on Steam. We are currently working with an independent artist and an independent sound designer on this title.
 
@@ -31,6 +32,7 @@ Note: We do not own Riskrieg, and Riskrieg is the sole property of Aaron Yoder a
 **Framework**: [Godot Engine](https://godotengine.org/)\
 **Development Status**: Planning\
 **Release Date**: Q3/Q4 2024
+**Steam page**: Coming late April / Early May, 2024
 
 **Project Ailuros** is the codename and working title for a 2D pixel art platformer where you play as a cat. We are currently working with an independent artist on this title.
 
