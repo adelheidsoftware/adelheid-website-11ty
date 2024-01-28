@@ -11,7 +11,7 @@ For general inquiries, please contact us at [{{ company.contactEmail }}](mailto:
 
 For privacy inquiries, please contact us at [privacy@adelheid.org](mailto:privacy@adelheid.org).
 
-For all other inquiries, or for more informal inquiries, you may contact us via our social media accounts or contact us via Discord.
+For all other inquiries, or for more informal inquiries, you may contact us via our social media accounts or via Discord.
 
 ### Get Involved
 
